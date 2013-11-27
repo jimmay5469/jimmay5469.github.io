@@ -36,6 +36,11 @@ html, body, .site {
 .nav {
   width: 100%;
   text-align: center;
+  font-size: 2.5em;
+  font-family: Georgia;
+}
+.nav ul {
+  padding: 50px;
 }
 .nav li {
   display: inline-block;
@@ -44,6 +49,7 @@ html, body, .site {
 }
 .nav a {
   text-decoration: none;
+  color: #679E8C;
 }
 
 
