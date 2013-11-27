@@ -2,20 +2,36 @@
   margin: 0;
   padding: 0;
 }
-html, body {
+html, body, .site {
   height: 100%;
+  font-family: Helvetica;
 }
 .header-background-image {
   background-image: url(http://ljlauzau.smugmug.com/Featured/i-Kq94H2z/0/X3/P8100125-X3.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
-  height: 300px;
+  height: 600px;
   width: 100%;
   z-index: -1;
 }
 .header {
-  height: 300px;
+  height: 600px;
+  color: #fff;
+}
+.title {
+  position: absolute;
+  top: 385px;
+  left: 15px;
+  font-size: 4em;
+}
+.social {
+  position: absolute;
+  top: 470px;
+  width: 500px;
+}
+.social a {
+  padding: 10px;
 }
 .section {
   height: 500px;
