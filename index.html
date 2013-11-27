@@ -2,25 +2,3 @@
 layout: default
 title: Jimmy Lauzau
 ---
-
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
-
-<div class="section"></div>
-
-<div class="header-background-image two"></div>
-<div class="section"></div>
-
-<div class="section"></div>
-
-<div class="section"></div>
-
-<div class="header-background-image three"></div>
-<div class="section"></div>
-
