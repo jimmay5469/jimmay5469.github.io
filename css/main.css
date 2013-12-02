@@ -11,23 +11,17 @@ a {
   text-decoration: none;
 }
 .nav {
-  display: none;
-  width: 100%;
-  text-align: center;
-  font-size: 2.5em;
-  font-family: Georgia;
+  position: fixed;
+  top:15px;
+  right: 15px;
+  text-align: right;
 }
 .nav ul {
-  padding: 50px;
-}
-.nav li {
-  display: inline-block;
-  padding-left: 5px;
-  padding-right: 5px;
+  list-style: none;
 }
 .nav a {
-  text-decoration: none;
-  color: #679E8C;
+  color: #000;
+  font-weight: bold;
 }
 .content {
   width: 850px;
