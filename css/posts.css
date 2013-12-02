@@ -1,0 +1,21 @@
+.header-background-image {
+  background-image: url(http://ljlauzau.smugmug.com/Public/Random/i-Gts64Xd/0/X3/CA_07131215391892-X3.jpg);
+  background-color: #000;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  z-index: -1;
+}
+.header {
+  height: 300px;
+  color: #fff;
+}
+.title {
+  position: absolute;
+  top: 215px;
+  left: 15px;
+  font-size: 4em;
+}

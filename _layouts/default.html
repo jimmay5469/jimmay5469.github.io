@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
+        <title> {% if page.title %} {{ page.title }} - {% endif %} Jimmy Lauzau </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- syntax highlighting CSS -->
@@ -12,20 +12,14 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+        {% for style in page.css %}
+          <link rel="stylesheet" href="/css/{{style}}">
+        {% endfor %}
+
     </head>
     <body>
 
         <div class="site">
-          <div class="header-background-image"></div>
-          <div class="header">
-            <h1 class="title">Hi, I'm Jimmy.</h1>
-            <div class="social">
-              <a href="https://github.com/jimmay5469"><img src="/img/GitHub120pxWhite.png" /></a>
-              <a href="https://twitter.com/jimmay5469"><img src="/img/Twitter120pxWhite.png" /></a>
-              <a href="http://www.linkedin.com/in/jimmylauzau"><img src="/img/LinkedIn120pxWhite.png" /></a>
-            </div>
-          </div>
-
           <div class="nav">
             <ul>
               <li><a href="/">Home</a></li>
@@ -44,6 +38,10 @@
             &copy;{{site.time | date: "%Y"}} Jimmy Lauzau | <a href="http://jimmylauzau.com">jimmylauzau.com</a>
           </div>
         </div>
+
+        {% for script in page.js %}
+          <script type="text/javascript" src="/js/{{script}}"></script>
+        {% endfor %}
 
     </body>
 </html>

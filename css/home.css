@@ -1,0 +1,98 @@
+.header-background-image {
+  background-image: url(http://ljlauzau.smugmug.com/Featured/i-Kq94H2z/0/X3/P8100125-X3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  height: 600px;
+  width: 100%;
+  z-index: -1;
+}
+.header {
+  height: 600px;
+  color: #fff;
+}
+.title {
+  position: absolute;
+  top: 385px;
+  left: 15px;
+  font-size: 4em;
+}
+.social {
+  position: absolute;
+  top: 470px;
+  width: 500px;
+}
+.social a {
+  padding: 10px;
+}
+.computerBak {
+  background-image: url(http://ljlauzau.smugmug.com/Public/Random/i-Gts64Xd/0/X3/CA_07131215391892-X3.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  width: 100%;
+}
+.backgroundSpacer {
+  height: 500px;
+}
+.two {
+  background-image: url(http://ljlauzau.smugmug.com/Featured/i-RMThXtw/1/X3/P8100142-X3.jpg);
+  height: 500px;
+}
+.connectSection {
+  background-color: #74AA98;
+}
+
+.dashboard {
+  list-style-type: none;
+  padding-left: 0;
+}
+.dashboard li {
+  display: inline-block;
+  background-color: #666666;
+  margin: 5px;
+  vertical-align: bottom;
+}
+.dashboard li:hover {
+  background-color: #C8DDD6;
+}
+.dashboard li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  width: 75px;
+  height: 75px;
+  font-size: 13px;
+  padding: 3px;
+  line-height: 14px;
+}
+@media (min-width: 400px) {
+  .dashboard li a {
+    width: 100px;
+    height: 100px;
+    font-size: 16px;
+    padding: 4px;
+    line-height: 17px;
+  }
+}
+@media (min-width: 550px) {
+  .dashboard li a {
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    padding: 5px;
+    line-height: 26px;
+  }
+}
+
+
+.apps li {
+  background-color: #74AA98;
+}
+.connect li {
+  background-color: #fff;
+}
+.connect li a {
+  color: #74AA98;
+}

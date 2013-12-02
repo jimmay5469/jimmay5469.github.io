@@ -1,9 +1,13 @@
 ---
 layout: default
+css: ['posts.css']
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<div class="header-background-image"></div>
+<div class="header">
+  <h1 class="title">{{ page.title }}</h1>
+</div>
 
-<div class="post">
-{{ content }}
+<div class="content">
+  <p class="meta">{{ page.date | date_to_string }}</p>
+  {{ content }}
 </div>
