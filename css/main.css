@@ -128,7 +128,7 @@ a {
   vertical-align: bottom;
 }
 .dashboard li:hover {
-  background-color: black;
+  background-color: #C8DDD6;
 }
 .dashboard li a {
   display: block;
