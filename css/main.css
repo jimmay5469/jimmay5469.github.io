@@ -39,7 +39,7 @@ html, body, .site {
   margin: auto;
 }
 .content p {
-  padding: 15px;
+  padding-bottom: 25px;
   line-height: 1.5em;
 }
 .footer {
