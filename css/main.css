@@ -63,7 +63,13 @@ html, body, .site {
   height: 400px;
   width: 100%;
 }
-
+.section {
+  height: 500px;
+}
+.two {
+  background-image: url(http://ljlauzau.smugmug.com/Featured/i-RMThXtw/1/X3/P8100142-X3.jpg);
+  height: 500px;
+}
 
 
 
