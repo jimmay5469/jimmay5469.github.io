@@ -77,6 +77,10 @@ html, body, .site {
 .connectSection {
   background-color: #74AA98;
 }
+a {
+  color: #74AA98;
+  text-decoration: none;
+}
 
 
 
