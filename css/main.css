@@ -42,6 +42,12 @@ html, body, .site {
   padding: 15px;
   line-height: 1.5em;
 }
+
+
+
+
+
+
 .contentHeading {
   position: absolute;
   z-index: -1;
@@ -50,14 +56,6 @@ html, body, .site {
   margin-left: -30px;
   margin-top: -40px;
 }
-.footer {
-  display: none;
-}
-
-
-
-
-
 .computerBak {
   background-image: url(http://ljlauzau.smugmug.com/Public/Random/i-Gts64Xd/0/X3/CA_07131215391892-X3.jpg);
   background-size: cover;
@@ -90,15 +88,6 @@ html, body, .site {
   text-decoration: none;
   color: #679E8C;
 }
-
-.section {
-  height: 500px;
-}
-.two {
-  background-image: url(http://ljlauzau.smugmug.com/Featured/i-RMThXtw/1/X3/P8100142-X3.jpg);
-  height: 500px;
-}
-.three {
-  background-image: url(http://ljlauzau.smugmug.com/Featured/i-JVG3H8n/1/X3/G0100375-X3.jpg);
-  height: 400px;
+.footer {
+  display: none;
 }
