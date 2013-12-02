@@ -42,14 +42,18 @@ html, body, .site {
   padding: 15px;
   line-height: 1.5em;
 }
-
+.footer {
+  padding: 15px;
+  margin: auto;
+  width: 300px;
+  text-align: center;
+}
 
 
 
 
 
 .contentHeading {
-  position: absolute;
   z-index: -1;
   color: #C8DDD6;
   font-size: 7em;
@@ -63,13 +67,19 @@ html, body, .site {
   height: 400px;
   width: 100%;
 }
-.section {
+.backgroundSpacer {
   height: 500px;
 }
 .two {
   background-image: url(http://ljlauzau.smugmug.com/Featured/i-RMThXtw/1/X3/P8100142-X3.jpg);
   height: 500px;
 }
+.connectSection {
+  background-color: #74AA98;
+}
+
+
+
 
 
 
@@ -94,6 +104,65 @@ html, body, .site {
   text-decoration: none;
   color: #679E8C;
 }
-.footer {
-  display: none;
+
+
+
+
+
+
+
+
+
+.dashboard {
+  list-style-type: none;
+  padding-left: 0;
+}
+.dashboard li {
+  display: inline-block;
+  background-color: #666666;
+  margin: 5px;
+  vertical-align: bottom;
+}
+.dashboard li:hover {
+  background-color: black;
+}
+.dashboard li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  width: 75px;
+  height: 75px;
+  font-size: 13px;
+  padding: 3px;
+  line-height: 14px;
+}
+@media (min-width: 400px) {
+  .dashboard li a {
+    width: 100px;
+    height: 100px;
+    font-size: 16px;
+    padding: 4px;
+    line-height: 17px;
+  }
+}
+@media (min-width: 550px) {
+  .dashboard li a {
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    padding: 5px;
+    line-height: 26px;
+  }
+}
+
+
+.apps li {
+  background-color: #74AA98;
+}
+.connect li {
+  background-color: #fff;
+}
+.connect li a {
+  color: #74AA98;
 }

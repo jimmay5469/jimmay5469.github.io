@@ -10,12 +10,32 @@ title: Jimmy Lauzau
 <div class="computerBak"></div>
 <div class="content">
   <h2 class="contentHeading">Apps</h2>
+  <ul class="dashboard apps">
+    <li><a href="/apps/myRides">My Bike Rides</a></li>
+    <li><a href="http://workoutcalc5469.herokuapp.com/">Workout Calculator</a></li>
+    <li><a href="http://timetracker5469.herokuapp.com/">Time Tracker</a></li>
+  </ul>
 </div>
-<div class="content">
-  <h2 class="contentHeading">Connect</h2>
+<div class="connectSection">
+  <div class="content">
+    <h2 class="contentHeading">Connect</h2>
+    <ul class="dashboard connect">
+      <li><a href="https://github.com/jimmay5469">GitHub</a></li>
+      <li><a href="http://www.linkedin.com/in/jimmylauzau">LinkedIn</a></li>
+      <li><a href="https://twitter.com/jimmay5469">Twitter</a></li>
+      <li><a href="https://delicious.com/jimmay5469">Delicious</a></li>
+      <li><a href="http://ljlauzau.smugmug.com/">Photos</a></li>
+      <li><a href="http://connect.garmin.com/profile/jimmay5469">Garmin Connect</a></li>
+    </ul>
+  </div>
 </div>
-<div class="header-background-image two"></div>
-<div class="section"></div>
 <div class="content">
   <h2 class="contentHeading">Blog</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 </div>
+<div class="header-background-image two"></div>
+<div class="backgroundSpacer"></div>
