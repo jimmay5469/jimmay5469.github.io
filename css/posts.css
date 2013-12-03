@@ -5,17 +5,41 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: absolute;
-  height: 300px;
+  height: 100px;
   width: 100%;
   z-index: -1;
 }
 .header {
-  height: 300px;
+  height: 100px;
   color: #fff;
 }
 .title {
   position: absolute;
-  top: 215px;
+  top: 15px;
   left: 15px;
-  font-size: 4em;
+  font-size: 2em;
+}
+@media (min-width: 400px) {
+  .header-background-image {
+    height: 200px;
+  }
+  .header {
+    height: 200px;
+  }
+  .title {
+    top: 145px;
+    font-size: 2.5em;
+  }
+}
+@media (min-width: 1050px) {
+  .header-background-image {
+    height: 300px;
+  }
+  .header {
+    height: 300px;
+  }
+  .title {
+    top: 215px;
+    font-size: 4em;
+  }
 }
