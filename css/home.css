@@ -70,6 +70,9 @@
 .social a {
   padding: 10px;
 }
+.social img {
+  border-width: 0;
+}
 .computerBak {
   background-image: url(http://ljlauzau.smugmug.com/Public/Random/i-Gts64Xd/0/X3/CA_07131215391892-X3.jpg);
   background-size: cover;

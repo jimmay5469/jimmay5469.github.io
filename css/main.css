@@ -86,3 +86,8 @@ a {
     font-size: 7em;
   }
 }
+@media (min-width: 1250px) {
+  .content {
+    width: 1050px;
+  }
+}
