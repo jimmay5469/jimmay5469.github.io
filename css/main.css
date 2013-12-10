@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  padding: 0;
 }
 html, body, .site {
   height: 100%;
@@ -35,6 +34,12 @@ a {
 .content p {
   padding-bottom: 25px;
   line-height: 1.5em;
+}
+.content ol, .content ul {
+  padding-bottom: 25px;
+}
+.content code {
+  background-color: #EEE;
 }
 .contentHeading {
   z-index: -1;
