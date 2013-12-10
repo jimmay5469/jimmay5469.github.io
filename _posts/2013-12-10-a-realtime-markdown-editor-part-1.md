@@ -37,7 +37,7 @@ Your best friend here is [Browserify](http://browserify.org/).  This makes the w
 5. Include a script tag to `marked.js` in your webpage and use marked as specified in their [GitHub page](https://github.com/chjj/marked).
 
 ##Realtime rendering with Ember.js
-I've pretty much been doing everything with [Ember](http://emberjs.com/) lately and love it.  If you're not using Ember, then at least use [Angular](http://angularjs.org/) or something, although I suppose you could always use [jQuery](http://jquery.com/) if you wanted, but that would make me :(.
+I've pretty much been doing everything with [Ember](http://emberjs.com/) lately and love it.  If you're not using Ember then you should check it out, or at least use [Angular](http://angularjs.org/) or something, although I suppose you could always use [jQuery](http://jquery.com/) if you wanted, but that would make me :(.
 
 I would like to roll this into an [Ember component](http://emberjs.com/api/classes/Ember.Component.html) or [Angular directive](http://docs.angularjs.org/guide/directive) later but for now here we are:
 
