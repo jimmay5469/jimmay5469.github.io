@@ -9,6 +9,9 @@ a {
   color: #74AA98;
   text-decoration: none;
 }
+h2 {
+  padding-bottom: 25px;
+}
 .nav {
   top:15px;
   right: 15px;
@@ -38,12 +41,24 @@ a {
 .content ol, .content ul {
   padding-bottom: 25px;
 }
+.content pre {
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
 .content code {
   margin: 0 2px;
   padding: 0px 5px;
   border: 1px solid #ddd;
   background-color: #f8f8f8;
   border-radius: 3px;
+}
+.content pre code {
+  border: none;
+}
+.highlight {
+  padding-bottom: 25px;
 }
 .contentHeading {
   z-index: -1;

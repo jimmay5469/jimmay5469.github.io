@@ -42,6 +42,7 @@ I've pretty much been doing everything with [Ember](http://emberjs.com/) lately 
 I would like to roll this into an [Ember component](http://emberjs.com/api/classes/Ember.Component.html) or [Angular directive](http://docs.angularjs.org/guide/directive) later but for now here we are:
 
 1. You're gonna need an object with a markdown and an html property that is smart enough to do the conversion:
+
 ```js
 App.MarkdownParser = Ember.Object.extend({
   markdown: null,
@@ -50,7 +51,9 @@ App.MarkdownParser = Ember.Object.extend({
   }.property('markdown')
 });
 ```
+
 2. You're going to need to define your application route with your model object:
+
 ```js
 App.ApplicationRoute = Ember.Route.extend({
   model: function() {
@@ -60,7 +63,9 @@ App.ApplicationRoute = Ember.Route.extend({
   }
 });
 ```
+
 3. Your will need to define your application template with a textbox and an output pane (notice that the output pane uses a tripple handlebar so that it does not escape the html):
+
 ```html
 <script type="text/x-handlebars">
   {{textarea id="input" value=markdown}}
