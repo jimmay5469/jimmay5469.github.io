@@ -1,9 +1,17 @@
 ---
 layout: default
-css: ['markdown-editor.css']
+css: ['markdown-editor.css', 'posts.css']
 ---
+{% raw %}
 <script type="text/x-handlebars">
-  {{markdown-editor value=myMarkdownPost}}
+  <div class="header-background-image"></div>
+  <div class="header">
+    <h1 class="title">Realtime Markdown Editor</h1>
+  </div>
+
+  <div class="content">
+    {{markdown-editor value=myMarkdownPost}}
+  </div>
 </script>
 <script type="text/x-handlebars" id="components/markdown-editor">
   <div id="container" class="mdEditor">
@@ -35,3 +43,4 @@ css: ['markdown-editor.css']
     }
   });
 </script>
+{% endraw %}
