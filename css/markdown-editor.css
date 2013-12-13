@@ -1,0 +1,15 @@
+.mdEditor #container {
+  width: 900px;
+  height: 500px;
+}
+.mdEditor #input {
+  width: 49%;
+  height: 100%;
+  float: left;
+}
+.mdEditor #output {
+  width: 49%;
+  height: 100%;
+  float: right;
+  overflow: scroll;
+}

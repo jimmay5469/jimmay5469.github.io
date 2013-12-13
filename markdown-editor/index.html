@@ -1,0 +1,37 @@
+---
+layout: default
+css: ['markdown-editor.css']
+---
+<script type="text/x-handlebars">
+  {{markdown-editor value=myMarkdownPost}}
+</script>
+<script type="text/x-handlebars" id="components/markdown-editor">
+  <div id="container" class="mdEditor">
+    {{textarea id="input" value=value}}
+    <div id="output">{{convert-markdown value}}</div>
+  </div>
+</script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-v1.1.2.js"></script>
+<script src="http://builds.emberjs.com/tags/v1.2.0/ember.min.js"></script>
+<script src="js/marked.js"></script>
+
+<script>
+  marked.setOptions({
+    gfm: true,
+    breaks: true
+  });
+
+  App = Ember.Application.create();
+
+  Ember.Handlebars.helper('convert-markdown', function(markdown) {
+    return new Ember.Handlebars.SafeString(marked(markdown));
+  });
+
+  App.ApplicationRoute = Ember.Route.extend({
+    model: function() {
+      return { myMarkdownPost: "#something" };
+    }
+  });
+</script>
