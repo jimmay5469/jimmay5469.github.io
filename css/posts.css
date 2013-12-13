@@ -5,19 +5,21 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: absolute;
-  height: 100px;
+  height: 130px;
   width: 100%;
   z-index: -1;
 }
 .header {
-  height: 100px;
+  height: 130px;
   color: #fff;
+  position: relative;
 }
 .title {
   position: absolute;
-  top: 15px;
   left: 15px;
   font-size: 2em;
+  position: absolute;
+  bottom: 0;
 }
 @media (min-width: 400px) {
   .header-background-image {
@@ -27,7 +29,6 @@
     height: 200px;
   }
   .title {
-    top: 145px;
     font-size: 2.5em;
   }
 }
@@ -39,7 +40,6 @@
     height: 300px;
   }
   .title {
-    top: 215px;
     font-size: 4em;
   }
 }
