@@ -1,12 +1,14 @@
 ---
 layout: default
+title: Realtime Markdown Editor
 css: ['markdown-editor.css', 'posts.css']
 ---
 {% raw %}
+<div id="emberContainer"></div>
 <script type="text/x-handlebars">
   <div class="header-background-image"></div>
   <div class="header">
-    <h1 class="title">Realtime Markdown Editor</h1>
+    <h1 class="title" contenteditable="true">Realtime Markdown Editor</h1>
   </div>
 
   <div class="content">
@@ -31,7 +33,9 @@ css: ['markdown-editor.css', 'posts.css']
     breaks: true
   });
 
-  App = Ember.Application.create();
+  App = Ember.Application.create({
+    rootElement: '#emberContainer'
+  });
 
   Ember.Handlebars.helper('convert-markdown', function(markdown) {
     return new Ember.Handlebars.SafeString(marked(markdown));
