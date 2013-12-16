@@ -22,9 +22,9 @@ css: ['markdown-editor.css', 'posts.css']
   </div>
 </script>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-v1.1.2.js"></script>
-<script src="http://builds.emberjs.com/tags/v1.2.0/ember.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/handlebars-v1.1.2.js"></script>
+<script src="/js/ember.min.js"></script>
 <script src="/js/marked.js"></script>
 
 <script>
@@ -43,7 +43,11 @@ css: ['markdown-editor.css', 'posts.css']
 
   App.ApplicationRoute = Ember.Route.extend({
     model: function() {
-      return { myMarkdownPost: "#something" };
+      return { myMarkdownPost: "#Realtime Markdown Editor\n\n" + 
+                               "Instructions:\n" + 
+                               "1. Type markdown in the box on the left.\n" +
+                               "2. Watch your markdown render realtime on the right.\n\n" +
+                               "For more information visit [A realtime markdown editor, Part 1](/blog/2013/12/10/a-realtime-markdown-editor-part-1/)" };
     }
   });
 </script>

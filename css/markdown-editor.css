@@ -1,15 +1,23 @@
 .mdEditor {
-  width: 900px;
-  height: 500px;
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .mdEditor #input {
+  position: fixed;
   width: 49%;
-  height: 100%;
-  float: left;
+  top: 0;
+  bottom: 0;
+  left: 0;
 }
 .mdEditor #output {
+  position: fixed;
   width: 49%;
-  height: 100%;
-  float: right;
+  top: 0;
+  bottom: 0;
+  right: 0;
   overflow: scroll;
 }
