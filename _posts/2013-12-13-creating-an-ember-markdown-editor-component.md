@@ -34,4 +34,6 @@ _Bonus:_ If you read my previous post, you may also notice a change in my markup
 ```
 
 You can see this version of the code on [GitHub](https://github.com/jimmay5469/EmberMarkdownParser/blob/eb38f7c0f854b32f75dd91bfb9f959ace71a9c8c/index.html) and the latest version of the code on [GitHub](https://github.com/jimmay5469/EmberMarkdownParser) as well!
+
+Demo: [Realtime Markdown Editor](/markdown-editor/)
 {% endraw %}

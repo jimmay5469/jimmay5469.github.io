@@ -75,5 +75,7 @@ I would like to roll this into an [Ember component](http://emberjs.com/api/class
 
 Thats pretty much it.  You can see this version of the code on [GitHub](https://github.com/jimmay5469/EmberMarkdownParser/tree/9a4b8689c77ff8c8eff5d833d4f674be8c776b5a/index.html) and the latest version of the code on [GitHub](https://github.com/jimmay5469/EmberMarkdownParser) as well!
 
+Demo: [Realtime Markdown Editor](/markdown-editor/)
+
 Part 2: [Creating an Ember markdown editor component](/blog/2013/12/13/creating-an-ember-markdown-editor-component/)
 {% endraw %}
