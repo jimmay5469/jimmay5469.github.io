@@ -12,7 +12,13 @@ css: ['markdown-editor.css', 'posts.css']
   </div>
 
   <div class="content">
-    {{markdown-editor value=myMarkdownPost}}
+    {{#if preview}}
+      {{convert-markdown myMarkdownPost}}
+      <button class="togglePreviewButton" {{action togglePreview}}>Edit Post</button>
+    {{else}}
+      {{markdown-editor value=myMarkdownPost}}
+      <button class="togglePreviewButton" {{action togglePreview}}>Preview as Post</button>
+    {{/if}}
   </div>
 </script>
 <script type="text/x-handlebars" id="components/markdown-editor">
@@ -43,11 +49,22 @@ css: ['markdown-editor.css', 'posts.css']
 
   App.ApplicationRoute = Ember.Route.extend({
     model: function() {
-      return { myMarkdownPost: "#Realtime Markdown Editor\n\n" + 
-                               "Instructions:\n" + 
-                               "1. Type markdown in the box on the left.\n" +
-                               "2. Watch your markdown render realtime on the right.\n\n" +
-                               "For more information visit [A realtime markdown editor, Part 1](/blog/2013/12/10/a-realtime-markdown-editor-part-1/)" };
+      return { 
+        preview: false,
+        myMarkdownPost: "#Realtime Markdown Editor\n\n" + 
+                         "Instructions:\n" + 
+                         "1. Type markdown in the box on the left.\n" +
+                         "2. Watch your markdown render realtime on the right.\n\n" +
+                         "For more information visit [A realtime markdown editor, Part 1](/blog/2013/12/10/a-realtime-markdown-editor-part-1/)"
+      };
+    }
+  });
+
+  App.ApplicationController = Ember.ObjectController.extend({
+    actions: {
+      togglePreview: function() {
+        this.toggleProperty('preview');
+      }
     }
   });
 </script>
