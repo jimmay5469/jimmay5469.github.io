@@ -9,19 +9,27 @@
 .mdEditor #input {
   position: fixed;
   width: 49%;
-  top: 0;
+  top: 60px;
   bottom: 0;
   left: 0;
+  resize: none;
 }
 .mdEditor #output {
   position: fixed;
   width: 49%;
-  top: 0;
+  top: 60px;
   bottom: 0;
   right: 0;
   overflow: scroll;
 }
-
+.titleInput {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 40px;
+  font-weight: bold;
+}
 .togglePreviewButton {
   position: fixed;
   bottom: 20px;

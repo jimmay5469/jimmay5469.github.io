@@ -8,7 +8,7 @@ css: ['markdown-editor.css', 'posts.css']
 <script type="text/x-handlebars">
   <div class="header-background-image"></div>
   <div class="header">
-    <h1 class="title" contenteditable="true">Realtime Markdown Editor</h1>
+    <h1 class="title">{{title}}</h1>
   </div>
 
   <div class="content">
@@ -17,6 +17,7 @@ css: ['markdown-editor.css', 'posts.css']
       <button class="togglePreviewButton" {{action togglePreview}}>Edit Post</button>
     {{else}}
       {{markdown-editor value=myMarkdownPost}}
+      {{input class="titleInput" value=title}}
       <button class="togglePreviewButton" {{action togglePreview}}>Preview as Post</button>
     {{/if}}
   </div>
@@ -51,8 +52,8 @@ css: ['markdown-editor.css', 'posts.css']
     model: function() {
       return { 
         preview: false,
-        myMarkdownPost: "#Realtime Markdown Editor\n\n" + 
-                         "Instructions:\n" + 
+        title: 'Realtime Markdown Editor',
+        myMarkdownPost: "##Instructions:\n" + 
                          "1. Type markdown in the box on the left.\n" +
                          "2. Watch your markdown render realtime on the right.\n\n" +
                          "For more information visit [A realtime markdown editor, Part 1](/blog/2013/12/10/a-realtime-markdown-editor-part-1/)"
