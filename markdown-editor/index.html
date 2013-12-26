@@ -20,6 +20,7 @@ css: ['markdown-editor.css', 'posts.css']
       {{input class="titleInput" value=title}}
       <button class="togglePreviewButton" {{action togglePreview}}>Preview as Post</button>
     {{/if}}
+    <button class="saveJekyllButton" {{action saveJekyll}}>Save as Jekyll Post</button>
   </div>
 </script>
 <script type="text/x-handlebars" id="components/markdown-editor">
@@ -34,6 +35,7 @@ css: ['markdown-editor.css', 'posts.css']
 <script src="/js/handlebars-v1.2.0.js"></script>
 <script src="http://builds.emberjs.com/tags/v1.3.0-beta.3/ember.js"></script>
 <script src="/js/marked.js"></script>
+<script src="/js/moment.min.js"></script>
 
 <script>
   marked.setOptions({
@@ -45,10 +47,10 @@ css: ['markdown-editor.css', 'posts.css']
 
   var postValues = defaultPostValues = {
     title: 'Realtime Markdown Editor',
-    postMarkdown: "##Instructions:\n" + 
-                  "1. Type markdown in the box on the left.\n" +
-                  "2. Watch your markdown render realtime on the right.\n\n" +
-                  "For more information visit [A realtime markdown editor, Part 1](/blog/2013/12/10/a-realtime-markdown-editor-part-1/)"
+    postMarkdown: '##Instructions:\n' + 
+                  '1. Type markdown in the box on the left.\n' +
+                  '2. Watch your markdown render realtime on the right.\n\n' +
+                  'For more information visit [A realtime markdown editor, Part 1](/blog/2013/12/10/a-realtime-markdown-editor-part-1/)'
   };
   if($.cookie('markdownPost')) {
     postValues = $.cookie('markdownPost');
@@ -86,6 +88,22 @@ css: ['markdown-editor.css', 'posts.css']
     actions: {
       togglePreview: function() {
         this.toggleProperty('preview');
+      },
+      saveJekyll: function() {
+        var postDate = moment();
+        var jekyllContent = '---\n' +
+                            'layout: post\n' +
+                            'title: ' + this.get('title') + '\n' +
+                            'date: ' + postDate.format('YYYY-MM-DD HH:mm:ss') + '\n' +
+                            '---\n' +
+                            '{% endraw %}{{ "{%" }} raw %}{% raw %}\n' +
+                            this.get('postMarkdown') + '\n' +
+                            '{% endraw %}{{ "{%" }} endraw %}{% raw %}';
+
+        var encodedUri = encodeURI(jekyllContent); var link = document.createElement('a');
+        link.setAttribute('href', 'data:text/plain;charset=utf-8,\uFEFF' + encodedUri);
+        link.setAttribute('download', postDate.format('YYYY-MM-DD-') + this.get('title').toLowerCase().replace(/[^\w\s]/g, '').replace(/ /g,"-") + '.md');
+        link.click();
       }
     }
   });
