@@ -40,7 +40,6 @@ css: ['markdown-editor.css', 'posts.css']
 </script>
 
 <script src="/js/jquery-1.10.2.min.js"></script>
-<script src="/js/jquery.cookie.js"></script>
 <script src="/js/handlebars-v1.2.0.js"></script>
 <script src="http://builds.emberjs.com/tags/v1.3.0-beta.3/ember.js"></script>
 <script src="/js/marked.js"></script>
@@ -51,8 +50,6 @@ css: ['markdown-editor.css', 'posts.css']
     gfm: true,
     breaks: true
   });
-  $.cookie.defaults.expires = 365;
-  $.cookie.json = true;
 
   var postValues = defaultPostValues = {
     title: 'Realtime Markdown Editor',
@@ -62,8 +59,8 @@ css: ['markdown-editor.css', 'posts.css']
                   '2. Watch your markdown render realtime on the right.\n\n' +
                   'For more information visit [A realtime markdown editor, Part 1](/blog/2013/12/10/a-realtime-markdown-editor-part-1/)'
   };
-  if($.cookie('markdownPost')) {
-    postValues = $.cookie('markdownPost');
+  if(localStorage.getItem('markdownPost')) {
+    postValues = JSON.parse(localStorage.getItem('markdownPost'));
   }
 
   App = Ember.Application.create({
@@ -84,7 +81,7 @@ css: ['markdown-editor.css', 'posts.css']
       Ember.run.debounce(null, this.savePost, this.get('json'), 500);
     }.observes('title', 'postDate', 'postMarkdown'),
     savePost: function(json) {
-      $.cookie('markdownPost', json);
+      localStorage.setItem('markdownPost', JSON.stringify(json));
     }
   });
 
