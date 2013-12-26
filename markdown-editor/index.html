@@ -13,10 +13,10 @@ css: ['markdown-editor.css', 'posts.css']
 
   <div class="content">
     {{#if preview}}
-      {{convert-markdown myMarkdownPost}}
+      {{convert-markdown postMarkdown}}
       <button class="togglePreviewButton" {{action togglePreview}}>Edit Post</button>
     {{else}}
-      {{markdown-editor value=myMarkdownPost}}
+      {{markdown-editor value=postMarkdown}}
       {{input class="titleInput" value=title}}
       <button class="togglePreviewButton" {{action togglePreview}}>Preview as Post</button>
     {{/if}}
@@ -30,10 +30,9 @@ css: ['markdown-editor.css', 'posts.css']
 </script>
 
 <script src="/js/jquery-1.10.2.min.js"></script>
+<script src="/js/jquery.cookie.js"></script>
 <script src="/js/handlebars-v1.2.0.js"></script>
 <script src="http://builds.emberjs.com/tags/v1.3.0-beta.3/ember.js"></script>
-<script src="http://builds.emberjs.com/tags/v1.0.0-beta.4/ember-data.js"></script>
-<script src="/js/localstorage_adapter.js"></script>
 <script src="/js/marked.js"></script>
 
 <script>
@@ -41,13 +40,37 @@ css: ['markdown-editor.css', 'posts.css']
     gfm: true,
     breaks: true
   });
+  $.cookie.defaults.expires = 365;
+  $.cookie.json = true;
+
+  var postValues = defaultPostValues = {
+    title: 'Realtime Markdown Editor',
+    postMarkdown: "##Instructions:\n" + 
+                  "1. Type markdown in the box on the left.\n" +
+                  "2. Watch your markdown render realtime on the right.\n\n" +
+                  "For more information visit [A realtime markdown editor, Part 1](/blog/2013/12/10/a-realtime-markdown-editor-part-1/)"
+  };
+  if($.cookie('markdownPost')) {
+    postValues = $.cookie('markdownPost');
+  }
 
   App = Ember.Application.create({
     rootElement: '#emberContainer'
   });
 
-  App.ApplicationAdapter = DS.LSAdapter.extend({
-    namespace: 'markdown-emberjs'
+  App.Post = Ember.Object.extend({
+    title: postValues.title,
+    postMarkdown: postValues.postMarkdown,
+    json: function() {
+      return { title: this.get('title'), postMarkdown: this.get('postMarkdown') };
+    }.property('title', 'postMarkdown'),
+    triggerSave: function() {
+      Ember.run.debounce(null, this.savePost, this.get('json'), 500);
+    }.observes('title', 'postMarkdown'),
+    savePost: function(json) {
+      console.log('save post');
+      $.cookie('markdownPost', json);
+    }
   });
 
   Ember.Handlebars.helper('convert-markdown', function(markdown) {
@@ -56,14 +79,7 @@ css: ['markdown-editor.css', 'posts.css']
 
   App.ApplicationRoute = Ember.Route.extend({
     model: function() {
-      return { 
-        preview: false,
-        title: 'Realtime Markdown Editor',
-        myMarkdownPost: "##Instructions:\n" + 
-                         "1. Type markdown in the box on the left.\n" +
-                         "2. Watch your markdown render realtime on the right.\n\n" +
-                         "For more information visit [A realtime markdown editor, Part 1](/blog/2013/12/10/a-realtime-markdown-editor-part-1/)"
-      };
+      return App.Post.create();
     }
   });
 
