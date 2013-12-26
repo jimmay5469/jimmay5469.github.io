@@ -114,7 +114,7 @@ css: ['markdown-editor.css', 'posts.css']
         var postDate = moment(this.get('postDate'));
         var jekyllContent = '---\n' +
                             'layout: post\n' +
-                            'title: ' + this.get('title') + '\n' +
+                            'title: "' + this.get('title') + '"\n' +
                             'date: ' + postDate.format('YYYY-MM-DD HH:mm:ss') + '\n' +
                             '---\n' +
                             '{% endraw %}{{ "{%" }} raw %}{% raw %}\n' +
