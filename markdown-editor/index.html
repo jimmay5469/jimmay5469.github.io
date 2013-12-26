@@ -68,7 +68,6 @@ css: ['markdown-editor.css', 'posts.css']
       Ember.run.debounce(null, this.savePost, this.get('json'), 500);
     }.observes('title', 'postMarkdown'),
     savePost: function(json) {
-      console.log('save post');
       $.cookie('markdownPost', json);
     }
   });
