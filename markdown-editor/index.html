@@ -123,7 +123,7 @@ css: ['markdown-editor.css', 'posts.css']
 
         var encodedUri = encodeURI(jekyllContent); var link = document.createElement('a');
         link.setAttribute('href', 'data:text/plain;charset=utf-8,\uFEFF' + encodedUri);
-        link.setAttribute('download', postDate.format('YYYY-MM-DD-') + this.get('title').toLowerCase().replace(/[^\w\s]/g, '').replace(/ /g,"-") + '.md');
+        link.setAttribute('download', postDate.format('YYYY-MM-DD') + '-' + this.get('title').toLowerCase().replace(/[^\w\s]/g, '').replace(/ /g,"-") + '.md');
         link.click();
       }
     }
