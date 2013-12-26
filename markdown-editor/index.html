@@ -29,9 +29,11 @@ css: ['markdown-editor.css', 'posts.css']
   </div>
 </script>
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/handlebars-v1.1.2.js"></script>
-<script src="/js/ember.min.js"></script>
+<script src="/js/jquery-1.10.2.min.js"></script>
+<script src="/js/handlebars-v1.2.0.js"></script>
+<script src="http://builds.emberjs.com/tags/v1.3.0-beta.3/ember.js"></script>
+<script src="http://builds.emberjs.com/tags/v1.0.0-beta.4/ember-data.js"></script>
+<script src="/js/localstorage_adapter.js"></script>
 <script src="/js/marked.js"></script>
 
 <script>
@@ -42,6 +44,10 @@ css: ['markdown-editor.css', 'posts.css']
 
   App = Ember.Application.create({
     rootElement: '#emberContainer'
+  });
+
+  App.ApplicationAdapter = DS.LSAdapter.extend({
+    namespace: 'markdown-emberjs'
   });
 
   Ember.Handlebars.helper('convert-markdown', function(markdown) {
