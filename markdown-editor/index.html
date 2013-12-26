@@ -16,18 +16,17 @@ css: ['markdown-editor.css', 'posts.css']
       <p class="meta">{{formattedPostDate}}</p>
       {{convert-markdown postMarkdown}}
       <div class="toolbar">
-        <button {{action clearPost}}>New Jekyll Post</button>
-        <br />
-        <button {{action openJekyll}}>Open Jekyll Post</button>
-        <br /><br />
-        <button {{action saveJekyll}}>Save as Jekyll Post</button>
+        <button {{action saveJekyll}}>Download Post</button>
         <br /><br />
         <button {{action togglePreview}}>Edit Post</button>
       </div>
     {{else}}
       {{markdown-editor value=postMarkdown}}
       {{input class="titleInput" value=title}}
+      {{input class="dateInput" value=postDate type="datetime"}}
       <div class="toolbar">
+        <button {{action clearPost}}>Reset</button>
+        <br /><br />
         <button {{action togglePreview}}>Preview as Post</button>
       </div>
     {{/if}}
@@ -57,6 +56,7 @@ css: ['markdown-editor.css', 'posts.css']
 
   var postValues = defaultPostValues = {
     title: 'Realtime Markdown Editor',
+    postDate: new Date(),
     postMarkdown: '##Instructions:\n' + 
                   '1. Type markdown in the box on the left.\n' +
                   '2. Watch your markdown render realtime on the right.\n\n' +
@@ -72,17 +72,17 @@ css: ['markdown-editor.css', 'posts.css']
 
   App.Post = Ember.Object.extend({
     title: postValues.title,
-    postDate: new Date(),
+    postDate: new Date(postValues.postDate),
     formattedPostDate: function() {
       return moment(this.get('postDate')).format('D MMM YYYY');
     }.property('postDate'),
     postMarkdown: postValues.postMarkdown,
     json: function() {
-      return { title: this.get('title'), postMarkdown: this.get('postMarkdown') };
-    }.property('title', 'postMarkdown'),
+      return { title: this.get('title'), postDate: this.get('postDate'), postMarkdown: this.get('postMarkdown') };
+    }.property('title', 'postDate', 'postMarkdown'),
     triggerSave: function() {
       Ember.run.debounce(null, this.savePost, this.get('json'), 500);
-    }.observes('title', 'postMarkdown'),
+    }.observes('title', 'postDate', 'postMarkdown'),
     savePost: function(json) {
       $.cookie('markdownPost', json);
     }
@@ -104,14 +104,11 @@ css: ['markdown-editor.css', 'posts.css']
         this.toggleProperty('preview');
       },
       clearPost: function() {
-        if(confirm('Are you sure? You will lose your current edits!')) {
+        if(confirm('Are you sure? You will lose your current markdown values!')) {
           this.set('title', defaultPostValues.title);
           this.set('postDate', new Date());
           this.set('postMarkdown', defaultPostValues.postMarkdown);
         }
-      },
-      openJekyll: function() {
-        alert('open jekyll');
       },
       saveJekyll: function() {
         var postDate = moment(this.get('postDate'));

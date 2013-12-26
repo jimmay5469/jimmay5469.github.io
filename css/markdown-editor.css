@@ -9,7 +9,7 @@
 .mdEditor #input {
   position: fixed;
   width: 49%;
-  top: 60px;
+  top: 75px;
   bottom: 0;
   left: 0;
   resize: none;
@@ -17,7 +17,7 @@
 .mdEditor #output {
   position: fixed;
   width: 49%;
-  top: 60px;
+  top: 75px;
   bottom: 0;
   right: 0;
   overflow: scroll;
@@ -29,6 +29,12 @@
   right: 0;
   font-size: 40px;
   font-weight: bold;
+}
+.dateInput {
+  position: fixed;
+  top: 55px;
+  left: 0;
+  right: 0;
 }
 .toolbar {
   position: fixed;
