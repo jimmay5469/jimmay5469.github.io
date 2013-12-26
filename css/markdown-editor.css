@@ -30,13 +30,9 @@
   font-size: 40px;
   font-weight: bold;
 }
-.togglePreviewButton {
+.toolbar {
   position: fixed;
   bottom: 20px;
   right: 20px;
-}
-.saveJekyllButton {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
+  text-align: right;
 }

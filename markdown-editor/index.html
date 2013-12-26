@@ -13,14 +13,24 @@ css: ['markdown-editor.css', 'posts.css']
 
   <div class="content">
     {{#if preview}}
+      <p class="meta">{{formattedPostDate}}</p>
       {{convert-markdown postMarkdown}}
-      <button class="togglePreviewButton" {{action togglePreview}}>Edit Post</button>
+      <div class="toolbar">
+        <button {{action clearPost}}>New Jekyll Post</button>
+        <br />
+        <button {{action openJekyll}}>Open Jekyll Post</button>
+        <br /><br />
+        <button {{action saveJekyll}}>Save as Jekyll Post</button>
+        <br /><br />
+        <button {{action togglePreview}}>Edit Post</button>
+      </div>
     {{else}}
       {{markdown-editor value=postMarkdown}}
       {{input class="titleInput" value=title}}
-      <button class="togglePreviewButton" {{action togglePreview}}>Preview as Post</button>
+      <div class="toolbar">
+        <button {{action togglePreview}}>Preview as Post</button>
+      </div>
     {{/if}}
-    <button class="saveJekyllButton" {{action saveJekyll}}>Save as Jekyll Post</button>
   </div>
 </script>
 <script type="text/x-handlebars" id="components/markdown-editor">
@@ -62,6 +72,10 @@ css: ['markdown-editor.css', 'posts.css']
 
   App.Post = Ember.Object.extend({
     title: postValues.title,
+    postDate: new Date(),
+    formattedPostDate: function() {
+      return moment(this.get('postDate')).format('D MMM YYYY');
+    }.property('postDate'),
     postMarkdown: postValues.postMarkdown,
     json: function() {
       return { title: this.get('title'), postMarkdown: this.get('postMarkdown') };
@@ -89,8 +103,18 @@ css: ['markdown-editor.css', 'posts.css']
       togglePreview: function() {
         this.toggleProperty('preview');
       },
+      clearPost: function() {
+        if(confirm('Are you sure? You will lose your current edits!')) {
+          this.set('title', defaultPostValues.title);
+          this.set('postDate', new Date());
+          this.set('postMarkdown', defaultPostValues.postMarkdown);
+        }
+      },
+      openJekyll: function() {
+        alert('open jekyll');
+      },
       saveJekyll: function() {
-        var postDate = moment();
+        var postDate = moment(this.get('postDate'));
         var jekyllContent = '---\n' +
                             'layout: post\n' +
                             'title: ' + this.get('title') + '\n' +
