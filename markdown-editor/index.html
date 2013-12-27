@@ -5,32 +5,33 @@ css: ['markdown-editor.css', 'posts.css']
 ---
 {% raw %}
 <div id="emberContainer"></div>
-<script type="text/x-handlebars">
+<script type="text/x-handlebars" id="index">
+  <div class="content">
+    {{markdown-editor value=postMarkdown}}
+  </div>
+  {{input class="titleInput" value=title}}
+  <label class="dateLabel" for="postDate">Post Created:</label>
+  {{input id="postDate" class="dateInput" value=postDate type="datetime"}}
+  <div class="toolbar">
+    <button {{action clearPost}}>Reset Post</button>
+    <br /><br />
+    <button {{action togglePreview}}>Preview Post</button>
+  </div>
+</script>
+<script type="text/x-handlebars" id="preview">
   <div class="header-background-image"></div>
   <div class="header">
     <h1 class="title">{{title}}</h1>
   </div>
 
   <div class="content">
-    {{#if preview}}
-      <p class="meta">{{formattedPostDate}}</p>
-      {{convert-markdown postMarkdown}}
-      <div class="toolbar">
-        <button {{action saveJekyll}}>Download Post</button>
-        <br /><br />
-        <button {{action togglePreview}}>Edit Post</button>
-      </div>
-    {{else}}
-      {{markdown-editor value=postMarkdown}}
-      {{input class="titleInput" value=title}}
-      <label class="dateLabel" for="postDate">Post Created:</label>
-      {{input id="postDate" class="dateInput" value=postDate type="datetime"}}
-      <div class="toolbar">
-        <button {{action clearPost}}>Reset Post</button>
-        <br /><br />
-        <button {{action togglePreview}}>Preview Post</button>
-      </div>
-    {{/if}}
+    <p class="meta">{{formattedPostDate}}</p>
+    {{convert-markdown postMarkdown}}
+    <div class="toolbar">
+      <button {{action saveJekyll}}>Download Post</button>
+      <br /><br />
+      <button {{action togglePreview}}>Edit Post</button>
+    </div>
   </div>
 </script>
 <script type="text/x-handlebars" id="components/markdown-editor">
@@ -68,6 +69,10 @@ css: ['markdown-editor.css', 'posts.css']
     rootElement: '#emberContainer'
   });
 
+  App.Router.map(function() {
+    this.resource('preview');
+  });
+
   App.Post = Ember.Object.extend({
     title: postValues.title,
     postDate: new Date(postValues.postDate),
@@ -90,16 +95,22 @@ css: ['markdown-editor.css', 'posts.css']
     return new Ember.Handlebars.SafeString(marked(markdown));
   });
 
-  App.ApplicationRoute = Ember.Route.extend({
+  var model = App.Post.create();
+  App.IndexRoute = Ember.Route.extend({
     model: function() {
-      return App.Post.create();
+      return model;
+    }
+  });
+  App.PreviewRoute = Ember.Route.extend({
+    model: function() {
+      return model;
     }
   });
 
-  App.ApplicationController = Ember.ObjectController.extend({
+  App.IndexController = Ember.ObjectController.extend({
     actions: {
       togglePreview: function() {
-        this.toggleProperty('preview');
+        this.transitionToRoute('preview');
       },
       clearPost: function() {
         if(confirm('Are you sure? You will lose your current post!')) {
@@ -107,6 +118,13 @@ css: ['markdown-editor.css', 'posts.css']
           this.set('postDate', new Date());
           this.set('postMarkdown', defaultPostValues.postMarkdown);
         }
+      }
+    }
+  });
+  App.PreviewController = Ember.ObjectController.extend({
+    actions: {
+      togglePreview: function() {
+        this.transitionToRoute('index');
       },
       saveJekyll: function() {
         var postDate = moment(this.get('postDate'));
