@@ -23,11 +23,12 @@ css: ['markdown-editor.css', 'posts.css']
     {{else}}
       {{markdown-editor value=postMarkdown}}
       {{input class="titleInput" value=title}}
-      {{input class="dateInput" value=postDate type="datetime"}}
+      <label class="dateLabel" for="postDate">Post Created:</label>
+      {{input id="postDate" class="dateInput" value=postDate type="datetime"}}
       <div class="toolbar">
-        <button {{action clearPost}}>Reset</button>
+        <button {{action clearPost}}>Reset Post</button>
         <br /><br />
-        <button {{action togglePreview}}>Preview as Post</button>
+        <button {{action togglePreview}}>Preview Post</button>
       </div>
     {{/if}}
   </div>
@@ -69,7 +70,7 @@ css: ['markdown-editor.css', 'posts.css']
 
   App.Post = Ember.Object.extend({
     title: postValues.title,
-    postDate: new Date(defaultPostValues.postDate),
+    postDate: new Date(postValues.postDate),
     formattedPostDate: function() {
       return moment(this.get('postDate')).format('D MMM YYYY');
     }.property('postDate'),
@@ -101,7 +102,7 @@ css: ['markdown-editor.css', 'posts.css']
         this.toggleProperty('preview');
       },
       clearPost: function() {
-        if(confirm('Are you sure? You will lose your current markdown values!')) {
+        if(confirm('Are you sure? You will lose your current post!')) {
           this.set('title', defaultPostValues.title);
           this.set('postDate', new Date());
           this.set('postMarkdown', defaultPostValues.postMarkdown);
