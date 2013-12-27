@@ -14,6 +14,8 @@ css: ['markdown-editor.css', 'posts.css']
   {{input id="postDate" class="dateInput" value=postDate type="datetime"}}
   <div class="toolbar">
     <button {{action clearPost}}>Reset Post</button>
+    <br />
+    <button {{action import}}>Import Post</button>
     <br /><br />
     <button {{action togglePreview}}>Preview Post</button>
   </div>
@@ -32,6 +34,13 @@ css: ['markdown-editor.css', 'posts.css']
       <br /><br />
       <button {{action togglePreview}}>Edit Post</button>
     </div>
+  </div>
+</script>
+<script type="text/x-handlebars" id="import">
+  {{textarea class="importDataInput" placeholder="Paste Jekyll post here." value=importData}}
+  <div class="toolbar">
+    <button {{action import}}>Import</button>
+    <button {{action cancel}}>Cancel</button>
   </div>
 </script>
 <script type="text/x-handlebars" id="components/markdown-editor">
@@ -71,6 +80,7 @@ css: ['markdown-editor.css', 'posts.css']
 
   App.Router.map(function() {
     this.resource('preview');
+    this.resource('import');
   });
 
   App.Post = Ember.Object.extend({
@@ -106,6 +116,11 @@ css: ['markdown-editor.css', 'posts.css']
       return model;
     }
   });
+  App.ImportRoute = Ember.Route.extend({
+    model: function() {
+      return model;
+    }
+  });
 
   App.IndexController = Ember.ObjectController.extend({
     actions: {
@@ -118,6 +133,9 @@ css: ['markdown-editor.css', 'posts.css']
           this.set('postDate', new Date());
           this.set('postMarkdown', defaultPostValues.postMarkdown);
         }
+      },
+      import: function() {
+        this.transitionToRoute('import');
       }
     }
   });
@@ -141,6 +159,33 @@ css: ['markdown-editor.css', 'posts.css']
         link.setAttribute('href', 'data:text/plain;charset=utf-8,\uFEFF' + encodedUri);
         link.setAttribute('download', postDate.format('YYYY-MM-DD') + '-' + this.get('title').toLowerCase().replace(/[^\w\s]/g, '').replace(/ /g,"-") + '.md');
         link.click();
+      }
+    }
+  });
+  App.ImportController = Ember.ObjectController.extend({
+    actions: {
+      cancel: function() {
+        this.set('importData', '');
+        this.transitionToRoute('index');
+      },
+      import: function() {
+        var importData = this.get('importData');
+        try {
+          var headerData = importData.split('---')[1].trim().split('\n');
+          var bodyData = importData.substring(
+            importData.indexOf('{% endraw %}{{ "{%" }} raw %}{% raw %}') + 9,
+            importData.indexOf('{% endraw %}{{ "{%" }} endraw %}{% raw %}')
+          ).trim();
+          this.set('title', headerData[1].substring(headerData[1].indexOf('"') + 1, headerData[1].lastIndexOf('"')));
+          this.set('postDate', new Date(headerData[2].substring(5).trim()));
+          this.set('postMarkdown', bodyData);
+        } catch(err) {
+          this.set('title', 'Imported Post');
+          this.set('postDate', new Date());
+          this.set('postMarkdown', importData);
+        }
+        this.set('importData', '');
+        this.transitionToRoute('index');
       }
     }
   });

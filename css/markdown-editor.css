@@ -48,3 +48,10 @@
   right: 20px;
   text-align: right;
 }
+.importDataInput {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
