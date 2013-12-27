@@ -69,7 +69,7 @@ css: ['markdown-editor.css', 'posts.css']
 
   App.Post = Ember.Object.extend({
     title: postValues.title,
-    postDate: new Date(postValues.postDate),
+    postDate: new Date(defaultPostValues.postDate),
     formattedPostDate: function() {
       return moment(this.get('postDate')).format('D MMM YYYY');
     }.property('postDate'),
