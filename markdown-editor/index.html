@@ -9,9 +9,13 @@ css: ['markdown-editor.css', 'posts.css']
   <div class="content">
     {{markdown-editor value=postMarkdown}}
   </div>
-  {{input class="titleInput" value=title}}
+  <div class="titleInput">
+    {{input value=title}}
+  </div>
   <label class="dateLabel" for="postDate">Post Created:</label>
-  {{input id="postDate" class="dateInput" value=postDate type="datetime"}}
+  <div class="dateInput">
+    {{input id="postDate" value=postDate type="datetime"}}
+  </div>
   <div class="toolbar">
     <button {{action clearPost}}>Reset Post</button>
     <br />
@@ -47,7 +51,7 @@ css: ['markdown-editor.css', 'posts.css']
 </script>
 <script type="text/x-handlebars" id="components/markdown-editor">
   <div id="container" class="mdEditor">
-    {{textarea id="input" value=value}}
+    <div id="input">{{textarea value=value}}</div>
     <div id="output">{{convert-markdown value}}</div>
   </div>
 </script>
