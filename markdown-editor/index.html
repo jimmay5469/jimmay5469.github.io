@@ -37,7 +37,9 @@ css: ['markdown-editor.css', 'posts.css']
   </div>
 </script>
 <script type="text/x-handlebars" id="import">
-  {{textarea class="importDataInput" placeholder="Paste Jekyll post here." value=importData}}
+  <div class="importDataInput">
+    {{textarea placeholder="Paste Jekyll post here." value=importData}}
+  </div>
   <div class="toolbar">
     <button {{action import}}>Import</button>
     <button {{action cancel}}>Cancel</button>
