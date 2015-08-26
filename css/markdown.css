@@ -1,0 +1,76 @@
+h1::before {
+	content: '# ';
+}
+h1::after {
+	content: ' #';
+}
+h2::before {
+	content: '## ';
+}
+h2::after {
+	content: ' ##';
+}
+h3::before {
+	content: '### ';
+}
+h3::after {
+	content: ' ###';
+}
+h4::before {
+	content: '#### ';
+}
+h4::after {
+	content: ' ####';
+}
+h5::before {
+	content: '##### ';
+}
+h5::after {
+	content: ' #####';
+}
+h6::before {
+	content: '###### ';
+}
+h6::after {
+	content: ' ######';
+}
+a::before {
+	content: '[';
+}
+a::after {
+	content: '](' attr(href) ')';
+}
+strong::before {
+	content: '**';
+}
+strong::after {
+	content: '**';
+}
+em::before {
+	content: '_';
+}
+em::after {
+	content: '_';
+}
+code::before {
+	content: '`';
+}
+code::after {
+	content: '`';
+}
+pre code::before {
+	content: '```';
+	display: block;
+}
+pre code::after {
+	content: '```';
+}
+pre code.language-js::before {
+	content: '```js';
+}
+pre code.language-html::before {
+	content: '```html';
+}
+pre code.language-css::before {
+	content: '```css';
+}

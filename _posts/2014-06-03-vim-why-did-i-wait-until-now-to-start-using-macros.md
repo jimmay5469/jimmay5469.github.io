@@ -10,11 +10,11 @@ I had been putting off learning macros the whole time.  I had enough new key bin
 
 Little did I know, one of the most fun features of VIM was macros.  They are super easy to record and to use, and it is fun trying to think in the mindset of doing something in a reusable way.
 
-![vimMacroAnimation1](http://ljlauzau.smugmug.com/Hidden/My-Site-Images/i-Bfcgv96/0/O/vimMacro1.gif)
+![vimMacroAnimation1](/img/vimMacroAnimation1.gif)
 
 Just press `qj` to start recording, type a bunch of commands, and then press `q` to stop recording your macro.  Then press `20@j` to run your macro 20 times.  Of course, you can assign a macro to any letter, not just `j`, and if you only want to run the macro once just hit `@j`.
 
-![vimMacroAnimation2](http://ljlauzau.smugmug.com/Hidden/My-Site-Images/i-96WBMwx/0/O/vimMacro2.gif)
+![vimMacroAnimation2](/img/vimMacroAnimation2.gif)
 
 You can do a lot of cool things with this, if you're not already using macros then you should check it out!
 
