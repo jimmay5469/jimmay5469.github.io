@@ -1,0 +1,27 @@
+/* color.adobe.com Tech Office theme */
+*::before,
+*::after {
+	color: #B8AE9C;
+}
+*:hover::before,
+*:hover::after {
+	color: #595241;
+}
+html {
+	background-color: #595241;
+	padding: 1rem;
+}
+body {
+	max-width: 800px;
+	color: #595241;
+	background-color: #FFFFFF;
+	margin: auto;
+	padding: 1rem;
+}
+a {
+	color: #8A0917;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
