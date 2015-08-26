@@ -1,3 +1,11 @@
+*::before,
+*::after {
+	color: #999;
+}
+*:hover::before,
+*:hover::after {
+	color: #000;
+}
 h1::before {
 	content: '# ';
 }
