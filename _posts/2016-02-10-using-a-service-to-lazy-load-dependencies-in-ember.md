@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using a service to lazy load dependencies"
+title: "Using a service to lazy load dependencies in Ember"
 date: 2016-02-10 09:45:00
 ---
 {% raw %}
