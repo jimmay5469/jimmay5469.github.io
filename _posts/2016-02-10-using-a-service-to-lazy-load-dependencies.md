@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Using a service to lazy load dependencies"
 date: 2016-02-10 09:45:00
