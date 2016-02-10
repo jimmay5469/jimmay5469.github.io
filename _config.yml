@@ -14,3 +14,6 @@ incremental: false
 highlighter: rouge
 gist:
   noscript: false
+
+
+markdown: redcarpet
