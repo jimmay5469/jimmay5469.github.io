@@ -1,6 +1,16 @@
 name: Your New Jekyll Site
-markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+
 kramdown:
   input: GFM
+  hard_wrap: false
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
+
+lsi: false
+safe: true
+incremental: false
 highlighter: rouge
-permalink: /blog/:year/:month/:day/:title
+gist:
+  noscript: false
