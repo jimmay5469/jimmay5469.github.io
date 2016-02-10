@@ -1,4 +1,6 @@
 name: Your New Jekyll Site
-markdown: redcarpet
+markdown: kramdown
+kramdown:
+  input: GFM
 highlighter: rogue
 permalink: /blog/:year/:month/:day/:title
