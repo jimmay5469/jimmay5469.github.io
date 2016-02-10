@@ -1,12 +1,4 @@
 /* color.adobe.com Tech Office theme */
-*::before,
-*::after {
-	color: #B8AE9C;
-}
-*:hover::before,
-*:hover::after {
-	color: #595241;
-}
 html {
 	background-color: #595241;
 	padding: 1rem;
@@ -24,4 +16,15 @@ a {
 }
 a:hover {
 	text-decoration: underline;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+}
+.nav li {
+    display: inline-block;
+}
+.nav li:not(:first-child)::before {
+    content: ' | ';
 }
