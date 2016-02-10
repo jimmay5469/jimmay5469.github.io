@@ -39,9 +39,10 @@ export default Ember.Service.extend({
 ```
 
 There are a couple things to note here:
-* Check out the [ember-inject-script](https://github.com/minutebase/ember-inject-script) addon to easily import a script using promises.  There may be other addons or javascript libraries that do something similar and it may be pretty easy to write this yourself, but we have had good luck with this addon.
-* You want to make a computed property that returns the promise which imports the dependency script.  This will cache the promise and make sure you don't import the script a second time the second time you use the service.  The second time you use the service you will benefit from an immediately resolving promise!
-* I actually added an additional function to abstract away filepicker/filestack which will probably be beneficial in a lot of cases.
+
+- Check out the [ember-inject-script](https://github.com/minutebase/ember-inject-script) addon to easily import a script using promises.  There may be other addons or javascript libraries that do something similar and it may be pretty easy to write this yourself, but we have had good luck with this addon.
+- You want to make a computed property that returns the promise which imports the dependency script.  This will cache the promise and make sure you don't import the script a second time the second time you use the service.  The second time you use the service you will benefit from an immediately resolving promise!
+- I actually added an additional function to abstract away filepicker/filestack which will probably be beneficial in a lot of cases.
 
 ## Using the service
 
