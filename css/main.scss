@@ -63,6 +63,20 @@ a:hover {
   animation: current-fade 1.25s ease-in-out;
 }
 
+pre {
+  background-color: $medium;
+  padding: .5em .75em;
+
+  code {
+    padding: 0;
+  }
+}
+code {
+  background-color: $medium;
+  font-size: .8em;
+  padding: .1em .25em;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "syntax-highlighting"
