@@ -9,6 +9,7 @@ $medium: #B8AE9C;
 $light: #FFFFFF;
 $accent1: #ACCFCC;
 $accent2: #8A0917;
+$code-background: rgba(0,0,0,0.04);
 
 html {
   background-color: $dark;
@@ -64,15 +65,16 @@ a:hover {
 }
 
 pre {
-  background-color: $medium;
+  background-color: $code-background;
   padding: .5em .75em;
 
   code {
+    background-color: transparent;
     padding: 0;
   }
 }
 code {
-  background-color: $medium;
+  background-color: $code-background;
   font-size: .8em;
   padding: .1em .25em;
 }
