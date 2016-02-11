@@ -35,7 +35,6 @@ export default Ember.Service.extend({
     });
   }
 });
-
 ```
 
 There are a couple things to note here:
