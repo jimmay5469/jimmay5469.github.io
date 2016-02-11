@@ -79,6 +79,10 @@ code {
   padding: .1em .25em;
 }
 
+#disqus_thread {
+  margin: 5em 0;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "syntax-highlighting"
