@@ -42,3 +42,23 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+<script>
+  (function() {
+    function clearCurrentSection() {
+      var oldCurrents = document.getElementsByClassName('current');
+      for(var i=0; i < oldCurrents.length; i++) {
+        oldCurrents[i].classList.remove('current');
+      }
+    }
+    function highlightCurrentSection() {
+      clearCurrentSection();
+      var hash = window.location.hash.substring(1);
+      var currentSection = document.getElementById(hash);
+      if(currentSection) {
+        currentSection.classList.add('current');
+      }
+    }
+    window.onhashchange = highlightCurrentSection;
+    highlightCurrentSection();
+  })()
+</script>
