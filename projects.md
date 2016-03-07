@@ -12,6 +12,6 @@ permalink: /projects/
 
 ## Experimental Apps
 - [Mashplan](http://www.jimmylauzau.com/mashplan/), _December 2014 - January 2015_
-- [Realtime Markdown Editor](http://www.jimmylauzau.com/markdown-editor), _December 2013_
+- [Realtime Markdown Editor](/markdown-editor), _December 2013_
 - [Time Tracker](http://timetracker5469.herokuapp.com/), _April 2013 - July 2013_
 - [Workout Calculator](http://workoutcalc5469.herokuapp.com/), _March 2013_
