@@ -17,7 +17,7 @@ Summary
 
 I am a passionate software developer with experience in both front-end JavaScript and full-stack development. Most recently, I have been doing front-end development using [Ember.js](http://emberjs.com/). I am a natural leader and I constantly push myself to learn and share what I have learned with others. I also have a strong interest in usability and work closely with designers to create an intuitive user experience. I highly value meetups and make a point to present topics in addition to my regular attendance.
 
-I am currently interested in both front-end and full-stack development using JavaScript frameworks such as Ember.js or React.js and server technologies such as Elixir, Ruby, and Node.js. I am also interested in more unique development such as library or framework development, embedded code, and mobile development. Open source is a plus.
+I am currently interested in both front-end and full-stack opportunities using JavaScript frameworks such as Ember.js or React.js and server technologies such as Elixir, Ruby, and Node.js. I am also interested in more unique opportunities such as library or framework development, embedded code, and mobile development. Open source is a plus.
 
 
 Experience
