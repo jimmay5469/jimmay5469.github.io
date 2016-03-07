@@ -3,87 +3,51 @@
 ---
 @charset "utf-8";
 
-/* color.adobe.com Tech Office theme */
-$dark: #595241;
-$medium: #B8AE9C;
-$light: #FFFFFF;
-$accent1: #ACCFCC;
-$accent2: #8A0917;
-$code-background: rgba(0,0,0,0.04);
 
-html {
-  background-color: $dark;
-  padding: 1rem;
-}
-body {
-  max-width: 1000px;
-  color: $dark;
-  background-color: $light;
-  margin: auto;
-  padding: 1rem;
-}
-a {
-  color: $accent2;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
 
-.nav ul {
-  padding: 0;
-  margin: 0;
-}
-.nav li {
-  display: inline-block;
-}
-.nav li:not(:first-child)::before {
-  content: ' | ';
-}
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
 
-@-moz-keyframes current-fade {
-  0% {background: $accent1;}
-  100% {background: none;}
-}
-@-webkit-keyframes current-fade {
-  0% {background: $accent1;}
-  100% {background: none;}
-}
-@-o-keyframes current-fade {
-  0% {background: $accent1;}
-  100% {background: none;}
-}
-@keyframes current-fade {
-  0% {background: $accent1;}
-  100% {background: none;}
-}
-.current {
-  -moz-animation: current-fade 1.25s ease-in-out;
-  -webkit-animation: current-fade 1.25s ease-in-out;
-  -o-animation: current-fade 1.25s ease-in-out;
-  animation: current-fade 1.25s ease-in-out;
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
 }
 
-pre {
-  background-color: $code-background;
-  padding: .5em .75em;
 
-  code {
-    background-color: transparent;
-    padding: 0;
-  }
-}
-code {
-  background-color: $code-background;
-  font-size: .8em;
-  padding: .1em .25em;
-}
-
-#disqus_thread {
-  margin: 5em 0;
-}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-  "syntax-highlighting"
+        "base",
+        "layout",
+        "syntax-highlighting"
 ;

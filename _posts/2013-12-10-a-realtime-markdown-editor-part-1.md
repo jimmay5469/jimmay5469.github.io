@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A realtime markdown editor,  Part 1"
-date:   2013-12-10 05:45:00
+date:   2013-12-10 05:45:00 -0500
 ---
 {% raw %}
 _Note:_ I suspect this is the first of many blog "Part 1's" that may or may not get a followup. There is definitely more I would like to play with and write about on this topic, the question is whether something else grabs my attention before I get there... but without further ado...
@@ -43,35 +43,35 @@ I would like to roll this into an [Ember component](http://emberjs.com/api/class
 
 1. You're gonna need an object with a markdown and an html property that is smart enough to do the conversion:
 
-    ```js
-    App.MarkdownParser = Ember.Object.extend({
-      markdown: null,
-      html: function() {
-        return marked(this.get('markdown'));
-      }.property('markdown')
-    });
-    ```
+   ```js
+   App.MarkdownParser = Ember.Object.extend({
+     markdown: null,
+     html: function() {
+       return marked(this.get('markdown'));
+     }.property('markdown')
+   });
+   ```
 
 2. You're going to need to define your application route with your model object:
 
-    ```js
-    App.ApplicationRoute = Ember.Route.extend({
-      model: function() {
-        return App.MarkdownParser.create({
-          markdown: "#something"
-        });
-      }
-    });
-    ```
+   ```js
+   App.ApplicationRoute = Ember.Route.extend({
+     model: function() {
+       return App.MarkdownParser.create({
+         markdown: "# something"
+       });
+     }
+   });
+   ```
 
 3. Your will need to define your application template with a textbox and an output pane (notice that the output pane uses a tripple handlebar so that it does not escape the html):
 
-    ```html
-    <script type="text/x-handlebars">
-      {{textarea id="input" value=markdown}}
-      <div id="output">{{{html}}}</div>
-    </script>
-    ```
+   ```html
+   <script type="text/x-handlebars">
+     {{textarea id="input" value=markdown}}
+     <div id="output">{{{html}}}</div>
+   </script>
+   ```
 
 Thats pretty much it. You can see this version of the code on [GitHub](https://github.com/jimmay5469/EmberMarkdownParser/tree/9a4b8689c77ff8c8eff5d833d4f674be8c776b5a/index.html) and the latest version of the code on [GitHub](https://github.com/jimmay5469/EmberMarkdownParser) as well!
 

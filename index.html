@@ -1,66 +1,24 @@
 ---
 layout: default
+title: Posts
 ---
-<div class="header">
-  <h1 class="title">Hi, I'm Jimmy.</h1>
-</div>
-<div id="about" class="section">
-  <h2 class="sectionHeading">About Me</h2>
-  <p>I am a software developer with a Computer Science Engineering degree from Ohio State University. I graduated in 2008, but have been playing with code ever since I was young. I view code as a brain teaser puzzle and find it very rewarding to figure something out. Learning new ways of doing things keeps me very excited and interested in programming. I write code because it is my passion and am lucky that it is also my career.</p>
-  <p>When I'm not writing code I love to be outdoors. Mountain biking is on of my favorite outdoor hobbies and I love working on my bike almost as much as riding. I also love hiking, camping, photography, and anything else that gets me outside.</p>
-</div>
-<div id="connect" class="section">
-  <h2 class="sectionHeading">Connect</h2>
-  <ul class="connect">
-    <li><a href="https://github.com/jimmay5469">GitHub</a></li>
-    <li><a href="http://www.linkedin.com/in/jimmylauzau">LinkedIn</a></li>
-    <li><a href="https://twitter.com/jimmay5469">Twitter</a></li>
-    <li><a href="https://delicious.com/jimmay5469">Delicious</a></li>
-    <li><a href="http://connect.garmin.com/profile/jimmay5469">Garmin Connect</a></li>
-  </ul>
-</div>
-<div id="apps" class="section">
-  <h2 class="sectionHeading">Experimental Apps</h2>
-  <ul class="apps">
-    <!--<li><a href="/apps/myRides">My Bike Rides</a></li>-->
-    <li><a href="markdown-editor">Realtime Markdown Editor</a></li>
-    <li><a href="http://workoutcalc5469.herokuapp.com/">Workout Calculator</a></li>
-    <li><a href="http://timetracker5469.herokuapp.com/">Time Tracker</a></li>
-  </ul>
-</div>
-<div id="talks" class="section">
-  <h2 class="sectionHeading">Talks</h2>
-    <ul class="talks">
-      <li>July 2015 Cincinnati Ember Meetup &raquo; Ember CLI Mirage (<a href="https://slides.com/jimmay5469/ember-cli-mirage">slides</a>)</li>
-      <li>May 2015 Cincinnati Ember Meetup &raquo; Ember Data Adapters and Serializers (<a href="https://www.youtube.com/watch?v=kX8MJbGbvCc">video</a>)</li>
-      <li>March 2015 Cincinnati Ember Meetup &raquo; Migrating to Ember CLI (<a href="https://slides.com/jimmay5469/migrating-to-ember-cli">slides</a>)</li>
-    </ul>
-</div>
-<div id="blog" class="section">
-  <h2 class="sectionHeading">Blog</h2>
-  <ul class="posts">
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
     {% for post in site.posts %}
-    <li>{{ post.date | date: "%B %-d, %Y" }} &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
     {% endfor %}
   </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
 </div>
-<script>
-  (function() {
-    function clearCurrentSection() {
-      var oldCurrents = document.getElementsByClassName('current');
-      for(var i=0; i < oldCurrents.length; i++) {
-        oldCurrents[i].classList.remove('current');
-      }
-    }
-    function highlightCurrentSection() {
-      clearCurrentSection();
-      var hash = window.location.hash.substring(1);
-      var currentSection = document.getElementById(hash);
-      if(currentSection) {
-        currentSection.classList.add('current');
-      }
-    }
-    window.onhashchange = highlightCurrentSection;
-    highlightCurrentSection();
-  })()
-</script>

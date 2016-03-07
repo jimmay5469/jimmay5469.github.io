@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "VIM: Why did I wait until now to start using macros?"
-date: 2014-06-03 08:00:35
+title:  "VIM: Why did I wait until now to start using macros?"
+date:   2014-06-03 08:00:35 -0500
 ---
 {% raw %}
 I started using VIM full time almost a year ago. I have gotten to a point where I feel like learning to use it has probably paid off. I am probably a little bit faster than I was before I used VIM but overall the biggest difference is that it feels more fun to code with.

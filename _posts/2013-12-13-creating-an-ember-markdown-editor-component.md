@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating an Ember markdown editor component"
-date:   2013-12-13 08:15:00
+date:   2013-12-13 08:15:00 -0500
 ---
 {% raw %}
 (If you haven't already, checked out my first post in this series: [A realtime markdown editor, Part 1](http://www.jimmylauzau.com/blog/2013/12/10/a-realtime-markdown-editor-part-1/). In that post I explain my motivation for creating this editor, I compile a NPM markdown library for use within the browser, and I create my first version of the editor.)
