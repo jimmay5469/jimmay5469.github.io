@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Using a service to lazy load dependencies in Ember"
-date: 2016-02-10 09:45:00
+title:  "Using a service to lazy load dependencies in Ember"
+date:   2016-02-10 09:45:00 -0500
 ---
 {% raw %}
 You may have areas of your application that require additional dependencies for image uploading, image editing, displaying charts, etc. Not every user will necessarily need these things every time they boot your app so why load them initially. It is actually pretty easy to lazily load them, here is the technique we have been using:
