@@ -5,4 +5,4 @@ jimmay5469.github.io
 - Run: `gem install jekyll`
 
 ##Running
-- Run: `jekyll serve -w`
+- Run: `jekyll serve`
