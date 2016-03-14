@@ -8,7 +8,7 @@ hide_in_nav: true
 Jimmy Lauzau
 ============
 
-Email: jimmy@jimmylauzau.com
+Email: jimmy@jimmylauzau.com  
 Blog: [jimmylauzau.com](http://www.jimmylauzau.com/)
 
 
