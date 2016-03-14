@@ -8,7 +8,7 @@
 # Site settings
 title: Jimmy Lauzau
 permalink: /blog/:year/:month/:day/:title
-email: jimmay5469@gmail.com
+email: jimmy@jimmylauzau.com
 description: > # this means to ignore newlines until "baseurl:"
   developer <a href="https://twitter.com/ahalogy">@ahalogy</a>, organizer <a href="https://twitter.com/embernati">@embernati</a>, mountain biker, hiker, and dad
 baseurl: "" # the subpath of your site, e.g. /blog
