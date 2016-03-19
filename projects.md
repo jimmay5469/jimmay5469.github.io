@@ -11,7 +11,7 @@ permalink: /projects/
 - [ember-data-github](https://github.com/jimmay5469/ember-data-github), _April 2015 - March 2016_
 
 ## Experimental Apps
+- [Markdown Editor](http://www.jimmylauzau.com/markdown-editor), _December 2013 - March 2016_
 - [Mashplan](http://www.jimmylauzau.com/mashplan/), _December 2014 - January 2015_
-- [Realtime Markdown Editor](/markdown-editor), _December 2013_
 - [Time Tracker](http://timetracker5469.herokuapp.com/), _April 2013 - July 2013_
 - [Workout Calculator](http://workoutcalc5469.herokuapp.com/), _March 2013_
