@@ -9,6 +9,7 @@ It has been a couple years since I created my markdown editor and the couple of 
 _To recap_: As a fun little project, two years ago I created an [Ember markdown editor component](https://github.com/jimmay5469/EmberMarkdownParser) and I started hosting it [on my website](/markdown-editor) which allows me to write posts in markdown for my website, which uses Jekyll. One of the cool things about this is that I can write markdown and see it rendered with my website styles realtime as I write it.
 
 Here are some of my problems with my current implementation:
+
 - No ember-cli.
 - Everything is in a single file.
 - No regularly used build system means I basically never update the [chjj/marked](https://github.com/chjj/marked) npm package.
@@ -21,6 +22,7 @@ Here are some of my problems with my current implementation:
 As I re-write my editor I plan to write a few posts about things I run into during development. As I write them I will come back and create links to them from this post.
 
 Here are my plans of what I would like to attempt with the new implementation:
+
 - Use ember-cli.
 - Include [chjj/marked](https://github.com/chjj/marked) using the normal ember-cli build process so it can be easily updated.
 - Host out of its own repository on GitHub and make it visible on my website via the `gh-pages` branch.
