@@ -4,11 +4,11 @@ title: "Importing node modules in Ember.js"
 date: 2016-03-22 10:35:00 -0400
 ---
 {% raw %}
-## What about Bower
+## What about Bower?
 
-[Bower](http://bower.io/) is great! I remember including all of my dependencies by downloading them, adding them to my `vendor` folder, checking them into my repository, and then having to figure out a way to manage keeping them up to date. Sure I could have tried to find a gem for each of them but many libraries were not wrapped by gems so then I'd have to manage my dependencies in two different ways.
+[Bower](http://bower.io/) is great! I remember including all of my dependencies by downloading them, adding them to my `vendor` folder, checking them into my repository, and then having to figure out a way to manage keeping them up to date. Sure I could have tried to find a gem for each of them but many libraries were not wrapped by gems so then I'd have to manage my dependencies in two different ways. Bower brought sanity to this, one tool that was capable of importing any of our dependencies, and in a more manageable fashion.
 
-Fast forward a few years and here we are in 2016, managing dependencies in our Ember projects _in two different ways_ again. It's all just JS but we've been including some libraries using [NPM](https://www.npmjs.com/) and others using Bower.
+Fast forward a few years and here we are in 2016, managing dependencies in our Ember projects _in two different ways_ again. It's all just JS but we've been including some libraries using [NPM](https://www.npmjs.com/) and others using Bower. Bower is not capable of managing our development dependencies so we had to turn to NPM.
 
 The good news is that it doesn't have to be this way. The community is already making an effort to condense down to just using NPM. With ember-data being an Ember addon you no longer have to include it in both your `bower.json` and `package.json`. I have heard that they are also making an effort to move the last few ember dependencies into NPM, including ember itself.
 
