@@ -24,7 +24,7 @@ As I re-write my editor I plan to write a few posts about things I run into duri
 Here are my plans of what I would like to attempt with the new implementation:
 
 - Use ember-cli.
-- Include [chjj/marked](https://github.com/chjj/marked) using the normal ember-cli build process so it can be easily updated.
+- Include [chjj/marked](https://github.com/chjj/marked) using the normal ember-cli build process so it can be easily updated. (See: [Importing node modules in Ember.js](/blog/2016/03/22/importing-node-modules-in-ember.js))
 - Host out of its own repository on GitHub and make it visible on my website via the `gh-pages` branch.
 - Auto-deploy commits to the `master` branch using a CI tool to build and commit to the `gh-pages` branch.
 - Use styles directly from my website so I don't have to include them in the new repository. If possible also do this for my website header and footer.
