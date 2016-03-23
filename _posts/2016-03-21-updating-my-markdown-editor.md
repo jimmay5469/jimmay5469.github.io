@@ -35,6 +35,5 @@ Here are my plans of what I would like to attempt with the new implementation:
 - Stop attempting to "upload/download" Jekyll files with the local file system.
 - Work directly with the GitHub API to create and update posts in the main website repository.
 - Make use of the Jekyll `drafts` folder to allow me to save a work in progress.
-- Continue to use `localStorage` so that you don't lose changes when leaving the page or refreshing.
-- While I work on the GitHub API features, make it easy to create Jekyll posts by displaying what the Jekyll file should look like.
+- Until I finishe creating the GitHub API features, make it easy to create Jekyll posts by displaying what the Jekyll file should look like.
 {% endraw %}
