@@ -4,7 +4,7 @@ title: "The awesomeness that is GitHub Pages"
 date: 2016-03-23 12:15:00 -0400
 ---
 {% raw %}
-I have tried many different over the years to host my personal website. Anything from WordPress to a custom built server rendered app. The one thing I have used that seems to have stuck: [GitHub Pages](https://pages.github.com/).
+I have tried many different things over the years to host my personal website. Anything from WordPress to a custom built server rendered app. The one thing I have used that seems to have stuck: [GitHub Pages](https://pages.github.com/).
 
 > ### Websites for you and your projects.
 > Hosted directly from your [GitHub repository](https://github.com/). Just edit, push, and your changes are live.
