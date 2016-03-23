@@ -71,6 +71,7 @@ If you are satisfied with the `http://[your username].github.io` address then yo
 First go get your domain if you don't already have it, and please don't go to GoDaddy for this. If you need a recommendation, use [iwantmyname](http://iwantmyname.com/), they are the most responsible registrar I've ever used. When you register a domain, your registrar will typically offer you a free DNS server so you'll need to set up a couple things there to tell it where you site lives.
 
 Visit the DNS server configuration on your registrar and create 3 records:
+
 1. An `A` record for your root domain. In my case that is `jimmylauzau.com` but usually you will just need to put `@` in the textbox. In the address textbox type `192.30.252.153`.
 2. A second `A` record. This one should look exactly the same as the previous one but you will want to type `192.30.252.154` into the address textbox this time.
 3. A `CNAME` record for the `www` subdomain. In the domain name textbox type `[your username].github.io`.
