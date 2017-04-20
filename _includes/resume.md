@@ -16,11 +16,18 @@ I am currently interested in both front-end and full-stack opportunities using J
 Experience
 ----------
 
+### Developer
+
+#### [Gaslight](https://teamgaslight.com/)
+
+_March 2017 - Present_
+
+
 ### Software Engineer
 
 #### [Ahalogy](https://www.ahalogy.com/)
 
-_March 2014 - Present_
+_March 2014 - March 2017_
 
 Ahalogy is a social marketing startup which specializes in bringing content creators and big brands together to help each other win on [Pinterest](https://www.pinterest.com/). As a front-end JavaScript developer at Ahalogy I am responsible for developing and maintaining an Ember.js application which allows users to effectively maintain and measure performance on their Pinterest account. My activities include:
 

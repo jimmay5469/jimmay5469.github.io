@@ -10,7 +10,7 @@ title: Jimmy Lauzau
 permalink: /blog/:year/:month/:day/:title
 email: jimmy@jimmylauzau.com
 description: > # this means to ignore newlines until "baseurl:"
-  developer <a href="https://twitter.com/ahalogy">@ahalogy</a>, organizer <a href="https://twitter.com/embernati">@embernati</a>, mountain biker, hiker, and dad
+  developer <a href="https://twitter.com/teamgaslight">@teamgaslight</a>, mountain biker, hiker, and dad
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jimmylauzau.com" # the base hostname & protocol for your site
 twitter_username: jimmay5469
