@@ -17,6 +17,7 @@ twitter_username: jimmay5469
 github_username:  jimmay5469
 
 # Build settings
+excerpt_separator: ""
 markdown: kramdown
 
 # Markdown Processors
