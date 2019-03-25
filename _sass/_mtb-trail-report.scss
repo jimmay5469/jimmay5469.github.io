@@ -1,17 +1,14 @@
 .trail-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
 
   .trail {
+    flex-grow: 1;
     display: flex;
-    align-items: flex-end;
-    flex-basis: 50%;
-    margin-bottom: 10px;
-  }
-  .trail-pic {
-    margin-right: 5px;
-  }
-  .trail-name {
-
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5px;
   }
 }
