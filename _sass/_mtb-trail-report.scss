@@ -1,0 +1,17 @@
+.trail-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  .trail {
+    display: flex;
+    align-items: flex-end;
+    flex-basis: 50%;
+    margin-bottom: 10px;
+  }
+  .trail-pic {
+    margin-right: 5px;
+  }
+  .trail-name {
+
+  }
+}

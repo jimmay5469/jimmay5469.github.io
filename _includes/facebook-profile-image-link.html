@@ -1,3 +1,12 @@
-<a href="https://www.facebook.com/{{ include.id }}" target="_blank">
-  <img src="https://graph.facebook.com/{{ include.id }}/picture?height=150" alt="{{ include.alt }}" />
-</a>
+<div class="trail">
+  <div class="trail-pic">
+    <a href="https://www.facebook.com/{{ include.id }}" target="_blank">
+      <img src="https://graph.facebook.com/{{ include.id }}/picture?height=40" alt="{{ include.alt }}" />
+    </a>
+  </div>
+  <div class="trail-name">
+    <a href="https://www.facebook.com/{{ include.id }}" target="_blank">
+      {{ include.alt }}
+    </a>
+  </div>
+</div>
