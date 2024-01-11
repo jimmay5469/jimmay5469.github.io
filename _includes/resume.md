@@ -8,11 +8,25 @@ Blog: [jimmylauzau.com](http://www.jimmylauzau.com/)
 Experience
 ----------
 
+### Senior Software Engineer
+
+#### [Kanekto](https://kanekto.com/)
+
+_September 2022 - Present_
+
+
+### Senior Software Engineer
+
+#### [Chegg](https://www.chegg.com/)
+
+_August 2019 - September 2022_
+
+
 ### Developer
 
 #### [Launch Scout](https://launchscout.com/)
 
-_March 2017 - Present_
+_March 2017 - August 2019_
 
 Launch Scout (formerly Gaslight) is a consulting company which is highly respected within the Cincinnati development community. They are known for their community envolvement, code quality, UX quality, and agile software development practices. They value small mighty teams so most of our projects consist of 2 developers that pair program and a UX designer. Some of the projects I worked on there were:
 
