@@ -10,13 +10,13 @@ Experience
 
 ### Developer
 
-#### [Gaslight](https://teamgaslight.com/)
+#### [Launch Scout](https://launchscout.com/)
 
 _March 2017 - Present_
 
-Gaslight is a consulting company which is highly respected within the Cincinnati development community. We are known for our community envolvement, code quality, UX quality, and agile software development practices. We value small mighty teams so most of our projects consist of 2 developers that pair program and a UX designer. Some of the projects I have worked on have been:
+Launch Scout (formerly Gaslight) is a consulting company which is highly respected within the Cincinnati development community. They are known for their community envolvement, code quality, UX quality, and agile software development practices. They value small mighty teams so most of our projects consist of 2 developers that pair program and a UX designer. Some of the projects I worked on there were:
 
-- An open source blockchain explorer written for Etherium-based blockchains. It is written mostly on Elixir and Phoenix but also utilizes Redux to manage state and realtime socket data on the front-end. This project was a collaboration between a few well known consulting companies in the indurstry and even included the original author of Elixir and the original author of Phoenix. I was Gaslight's team lead on the project of 2 Gaslight UX designers and 3 Gaslight developers.
+- An open source blockchain explorer written for Etherium-based blockchains. It is written mostly on Elixir and Phoenix but also utilizes Redux to manage state and realtime socket data on the front-end. This project was a collaboration between a few well known consulting companies in the indurstry and even included the original author of Elixir and the original author of Phoenix. I was Launch Scout's team lead on the project of 2 Launch Scout UX designers and 3 Launch Scout developers.
 - A GIS app for the lawn and landscaping industry which allows companies to take complex measurements for jobs on a map. They use this data do project estimation and planning. This is a huge help for them because they are able to accurately take measurements without the cost of traveling to the actual location, as well as to have a much more visual tool that they can use and reflect back on. It has a Rails back-end and a React/Redux front-end and makes heavy use of the Esri JavaScript library.
 - A data visualization app to display and organize lab results for testing done on consumer product materials. It is a single page app utilizing Python, GraphQL, and React/Redux.
 
