@@ -14,12 +14,34 @@ Experience
 
 _September 2022 - Present_
 
+Kanekto is a small startup developing a product to make employees feel more connected in large organizations. It gives employees the opportunity to connect with each other around their personal hobbies bridging the gap between teams and levels. Being a small startup, I am required to wear many hats. Some of them include:
+
+- Manage a team of 6 developers and a QA engineer. This team includes full-time contractors so it has been my responsibility to manage the budget decide on the makeup of the team as we have gone through many phases and iterations, as well as provide feedback and review timesheets.
+- Lead front-end web development using Next.js and React/Redux.
+- Establish our front-end development and release process.
+- Build, maintain, and iterate upon our front-end DevOps infrastructure and build pipelines using GitHub Actions, Docker, and Heroku.
+- Review and provide feedback on all front-end code.
+- Give feedback and actively contribute to the UX design of the application with our UX designer.
+- Very actively collaborate on the direction of the company and product features to be developed.
+- Be the main contributer to the front-end codebase in addition to all of the responsibilities above.
+
 
 ### Senior Software Engineer
 
 #### [Chegg](https://www.chegg.com/)
 
 _August 2019 - September 2022_
+
+Chegg originally made its name in the college space by providing online textbook rentals and quickly became the main online resource for college students providing services like Q&A, and homework help. During my time there I worked on two different teams, the team responsible for building and maintaining [Internships.com](https://internships.com), and the team responsible for building and maintaining [Thinkful](https://www.thinkful.com/), Chegg's online bootcamp. My activities included:
+
+- Greatly improve the SEO capabilities of Internships.com and ease of maintaining our SEO-related code. As part of this project I had to:
+  - Convert our React codebase to Next.js without interrupting development of other features as well as transition other features over from Wordpress.
+  - Update our Docker images and CI processes to release the Next.js solution alongside the existing solutions.
+  - Work with the DevOps transition traffic from the old solutions to the Next.js solution.
+- Build and maintain features for Internships.com using React/Redux.
+- Lead Thinkful's transition from React to Next.js modeling off of the Internships.com work.
+- Build and maintain features for Thinkful using React/Redux.
+- Lead many projects to improve code quality at Thinkful because the original code had been rapidly developed while they were a startup and was not up to Chegg standards.
 
 
 ### Developer
@@ -28,9 +50,9 @@ _August 2019 - September 2022_
 
 _March 2017 - August 2019_
 
-Launch Scout (formerly Gaslight) is a consulting company which is highly respected within the Cincinnati development community. They are known for their community envolvement, code quality, UX quality, and agile software development practices. They value small mighty teams so most of our projects consist of 2 developers that pair program and a UX designer. Some of the projects I worked on there were:
+Launch Scout (formerly Gaslight) is a consulting company which is highly respected within the Cincinnati development community. They are known for their community involvement, code quality, UX quality, and agile software development practices. They value small mighty teams so most of our projects consist of 2 developers that pair program and a UX designer. Some of the projects I worked on there were:
 
-- An open source blockchain explorer written for Etherium-based blockchains. It is written mostly on Elixir and Phoenix but also utilizes Redux to manage state and realtime socket data on the front-end. This project was a collaboration between a few well known consulting companies in the indurstry and even included the original author of Elixir and the original author of Phoenix. I was Launch Scout's team lead on the project of 2 Launch Scout UX designers and 3 Launch Scout developers.
+- An open source blockchain explorer written for Etherium-based blockchains. It is written mostly on Elixir and Phoenix but also utilizes Redux to manage state and realtime socket data on the front-end. This project was a collaboration between a few well known consulting companies in the industry and even included the original author of Elixir and the original author of Phoenix. I was Launch Scout's team lead on the project of 2 Launch Scout UX designers and 3 Launch Scout developers.
 - A GIS app for the lawn and landscaping industry which allows companies to take complex measurements for jobs on a map. They use this data do project estimation and planning. This is a huge help for them because they are able to accurately take measurements without the cost of traveling to the actual location, as well as to have a much more visual tool that they can use and reflect back on. It has a Rails back-end and a React/Redux front-end and makes heavy use of the Esri JavaScript library.
 - A data visualization app to display and organize lab results for testing done on consumer product materials. It is a single page app utilizing Python, GraphQL, and React/Redux.
 
