@@ -97,14 +97,14 @@ Volunteer Experience
 
 ### Meetup Organizer
 
-#### [Cincinnati Ember Meetup](http://embernati.com)
+#### [Cincinnati Ember Meetup](https://www.meetup.com/TechLife-Cincinnati/)
 
 _July 2015 - March 2017_
 
 
 ### Group Instructor
 
-#### [Communication and Technology Scholars Program at The Ohio State University](http://honors-scholars.osu.edu/scholars/programs/mmc)
+#### [Communication and Technology Scholars Program at The Ohio State University](https://honors-scholars.osu.edu/scholars/programs/media-marketing-and-communication)
 
 _September 2005 - December 2008_
 
