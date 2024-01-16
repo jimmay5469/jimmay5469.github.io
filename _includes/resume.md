@@ -88,7 +88,7 @@ Ahalogy is a social marketing startup which specializes in bringing content crea
 - Application Developer, [Time Warner Cable](http://www.timewarnercable.com/), _April 2010 - June 2013_
 - Software Engineer, [Tata Consultancy Services](http://www.tcs.com/), _September 2009 - April 2010_
 - Software Engineer, [Rosetta](http://www.rosetta.com/), _January 2009 - September 2009_
-- Web Developer Intern, StudioCT at The Ohio State University, _September 2006 - December 2008_
+- Web Developer Intern, [StudioCT at The Ohio State University](https://honors-scholars.osu.edu/scholars/programs/media-marketing-and-communication), _September 2006 - December 2008_
 - Web Developer Intern, [Ohio Presbyterian Retirement Services](http://www.oprs.org/), _June 2006 - September 2006_
 
 
