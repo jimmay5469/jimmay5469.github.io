@@ -5,10 +5,18 @@ Email: jimmy@jimmylauzau.com
 <!-- Blog: [jimmylauzau.com](http://www.jimmylauzau.com/) -->
 
 
+Summary
+----------
+
+I am a software engineer with experience in front-end web development, server-side development, CI/CD, and DevOps. I am a natural leader and have led and managed many teams over the past several years. I am very empathetic towards the end-users of my products and take a special interest in UX, working very closely with the designers on teams I have been part of to create the best user experience possible.
+
+While I am sad that Kanekto is not going to make it, I am excited for my next opportunity and what that brings! I have always had a passion for front-end web development but would also be very excited to take on a role with a server-side or DevOps focus, or even management. That would be a fun change!
+
+
 Experience
 ----------
 
-### Senior Software Engineer
+### Principal Software Engineer
 
 #### [Kanekto](https://kanekto.com/)
 
