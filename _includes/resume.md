@@ -31,7 +31,7 @@ Kanekto is a small startup developing a product to make employees feel more conn
 - Review and provide feedback on all front-end code.
 - Give feedback and actively contribute to the UX design of the application with our UX designer.
 - Very actively collaborate on the direction of the company and product features to be developed.
-- Be the main contributer to the front-end codebase in addition to all of the responsibilities above.
+- Be the main contributor to the front-end codebase in addition to all of the responsibilities above.
 
 
 ### Senior Software Engineer
