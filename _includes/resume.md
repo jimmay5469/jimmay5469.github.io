@@ -15,7 +15,7 @@ I am a highly experienced software engineer looking for one of the following rol
 
 I have experience in front-end web development, server-side development, CI/CD, and DevOps. I am a natural leader and have led and managed many teams over the past several years. I am very empathetic towards the end-users of my products and take a special interest in UX, working very closely with the designers on teams I have been part of to create the best user experience possible.
 
-After almost 20 years of focus on web development, I have found that what I enjoy the most now is when I get to work on CI/CD, DevOps, and management. I am excited to be looking for roles where I can focus more in one or both of those areas!
+After almost 20 years of focus on web development, I have found that what I enjoy the most now is when I get to work on Docker, CI/CD, DevOps, and management. I am excited to be looking for roles where I can focus more in one or both of those areas!
 
 
 Experience
