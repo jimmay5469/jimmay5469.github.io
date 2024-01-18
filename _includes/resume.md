@@ -30,7 +30,7 @@ _September 2022 - Present_
 Kanekto is a small startup developing a product to make employees feel more connected in large organizations. It gives employees the opportunity to connect with each other around their personal hobbies bridging the gap between teams and levels. Being a small startup, I am required to wear many hats. Some of them include:
 
 - Manage a team of 6 developers and a QA engineer. This team includes full-time contractors so it has been my responsibility to manage the budget decide on the makeup of the team as we have gone through many phases and iterations, as well as provide feedback and review timesheets.
-- Lead front-end web development using Next.js and React/Redux.
+- Lead front-end web development using Next.js, React/Redux, and Typescript.
 - Establish our front-end development and release process.
 - Build, maintain, and iterate upon our front-end DevOps infrastructure and build pipelines using GitHub Actions, Docker, and Heroku.
 - Review and provide feedback on all front-end code.
