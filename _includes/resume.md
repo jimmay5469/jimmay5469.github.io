@@ -8,9 +8,14 @@ Email: jimmy@jimmylauzau.com
 Summary
 ----------
 
-I am a software engineer with experience in front-end web development, server-side development, CI/CD, and DevOps. I am a natural leader and have led and managed many teams over the past several years. I am very empathetic towards the end-users of my products and take a special interest in UX, working very closely with the designers on teams I have been part of to create the best user experience possible.
+I am a highly experienced software engineer looking for one of the following roles:
+- DevOps/DevEx/SRE
+- Management
+- Web development with DevOps or management responsibilities and opportunity to move further into those roles
 
-While I am sad that Kanekto is not going to make it, I am excited for my next opportunity and what that brings! I have always had a passion for front-end web development but would also be very excited to take on a role with a server-side or DevOps focus, or even management. That would be a fun change!
+I have experience in front-end web development, server-side development, CI/CD, and DevOps. I am a natural leader and have led and managed many teams over the past several years. I am very empathetic towards the end-users of my products and take a special interest in UX, working very closely with the designers on teams I have been part of to create the best user experience possible.
+
+After almost 20 years of focus on web development, I have found that what I enjoy the most now is when I get to work on CI/CD, DevOps, and management. I am excited to be looking for roles where I can focus more in one or both of those areas!
 
 
 Experience
