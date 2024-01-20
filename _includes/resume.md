@@ -9,7 +9,7 @@ Summary
 ----------
 
 I am a highly experienced software engineer looking for one of the following roles:
-- DevOps/DevEx/SRE
+- DevOps/DevEx/SRE/CloudOps
 - Management
 - Web development with DevOps or management responsibilities and opportunity to move further into those roles
 
