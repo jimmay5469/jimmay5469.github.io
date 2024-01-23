@@ -8,14 +8,11 @@ Email: jimmy@jimmylauzau.com
 Summary
 ----------
 
-I am a highly experienced software engineer looking for one of the following roles:
+I am a highly experienced software engineer who would be interested in the following roles:
 - DevOps/DevEx/SRE/CloudOps
-- Management
-- Web development with DevOps or management responsibilities and opportunity to move further into those roles
+- Software engineering using functional languages such as Elixir
 
 I have experience in front-end web development, server-side development, CI/CD, and DevOps. I am a natural leader and have led and managed many teams over the past several years. I am very empathetic towards the end-users of my products and take a special interest in UX, working very closely with the designers on teams I have been part of to create the best user experience possible.
-
-After over 15 years of focus on web development, I have found that what I enjoy the most now is when I get to work on Docker, CI/CD, DevOps, and management. I am excited to be looking for roles where I can focus more in those areas!
 
 
 Experience
