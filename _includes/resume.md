@@ -35,6 +35,8 @@ Kanekto is a small startup developing a product to make employees feel more conn
 - Very actively collaborate on the direction of the company and product features to be developed.
 - Be the main contributor to the front-end codebase in addition to all of the responsibilities above.
 
+**Skills:** JavaScript, Continuous Integration and Continuous Delivery (CI/CD), Docker Products, DevOps, Next.js, React.js, Redux.js, TypeScript, User Experience (UX), Team Management, Team Leadership, Software Development, Software Design, Automated Software Testing, Git, Scrum
+
 
 ### Senior Software Engineer
 
@@ -53,6 +55,8 @@ Chegg originally made its name in the college space by providing online textbook
 - Build and maintain features for Thinkful using React/Redux.
 - Lead many projects to improve code quality at Thinkful because the original code had been rapidly developed while they were a startup and was not up to Chegg standards.
 
+**Skills:** JavaScript, Continuous Integration and Continuous Delivery (CI/CD), Docker Products, DevOps, Next.js, React.js, Redux.js, TypeScript, User Experience (UX), Software Development, Software Design, Automated Software Testing, Search Engine Optimization (SEO), Git, Scrum
+
 
 ### Developer
 
@@ -65,6 +69,8 @@ Launch Scout (formerly Gaslight) is a consulting company which is highly respect
 - An open source blockchain explorer written for Etherium-based blockchains. It is written mostly on Elixir and Phoenix but also utilizes Redux to manage state and realtime socket data on the front-end. This project was a collaboration between a few well known consulting companies in the industry and even included the original author of Elixir and the original author of Phoenix. I was Launch Scout's team lead on the project of 2 Launch Scout UX designers and 3 Launch Scout developers.
 - A GIS app for the lawn and landscaping industry which allows companies to take complex measurements for jobs on a map. They use this data do project estimation and planning. This is a huge help for them because they are able to accurately take measurements without the cost of traveling to the actual location, as well as to have a much more visual tool that they can use and reflect back on. It has a Rails back-end and a React/Redux front-end and makes heavy use of the Esri JavaScript library.
 - A data visualization app to display and organize lab results for testing done on consumer product materials. It is a single page app utilizing Python, GraphQL, and React/Redux.
+
+**Skills:** JavaScript, Elixir, Continuous Integration and Continuous Delivery (CI/CD), Docker Products, DevOps, React.js, Redux.js, User Experience (UX), Team Management, Team Leadership, Mentoring, GraphQL, Ruby, Ruby on Rails, Python (Programming Language), PostgreSQL, Software Development, Software Design, Agile Methodologies, Automated Software Testing, Consulting, Git, Scrum
 
 
 ### Software Engineer
@@ -82,6 +88,8 @@ Ahalogy is a social marketing startup which specializes in bringing content crea
 - Establish a culture of acceptance, integration, and unit testing within our Ember applications.
 - Lead development on both application security and Pinterest authentication using OAuth.
 - Pair program remotely with team members using Screenhero and other tools.
+
+**Skills:** JavaScript, Continuous Integration and Continuous Delivery (CI/CD), Redux.js, User Experience (UX), Ember.js, Software Development, Software Design, Agile Methodologies, Automated Software Testing, Git, Scrum
 
 
 ### Previous Roles
