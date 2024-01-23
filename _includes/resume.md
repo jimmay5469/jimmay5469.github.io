@@ -9,8 +9,8 @@ Summary
 ----------
 
 I am a highly experienced software engineer who would be interested in the following roles:
-- DevOps/DevEx/SRE/CloudOps
 - Software engineering using functional languages such as Elixir
+- DevOps/DevEx/SRE/CloudOps
 
 I have experience in front-end web development, server-side development, CI/CD, and DevOps. I am a natural leader and have led and managed many teams over the past several years. I am very empathetic towards the end-users of my products and take a special interest in UX, working very closely with the designers on teams I have been part of to create the best user experience possible.
 
