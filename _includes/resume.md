@@ -8,11 +8,9 @@ Email: jimmy@jimmylauzau.com
 Summary
 ----------
 
-I am a highly experienced software engineer who would be interested in the following roles:
-- Software engineering using functional languages such as Elixir
-- DevOps/DevEx/SRE/CloudOps
+I am a full-stack software engineer with over 15 years of experience. I am currently looking for a DevOps role.
 
-I have experience in front-end web development, server-side development, CI/CD, and DevOps. I am a natural leader and have led and managed many teams over the past several years. I am very empathetic towards the end-users of my products and take a special interest in UX, working very closely with the designers on teams I have been part of to create the best user experience possible.
+From working with Docker to writing and maintaining CI/CD pipelines, creating deployment strategies, maintaining deployments, and even just writing scripts to automate repetitive tasks, DevOps has always been one of the most enjoyable parts of the roles I have been in. I am looking forward to putting more focus on the area!
 
 
 Experience
