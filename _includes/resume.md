@@ -5,18 +5,10 @@ Email: jimmy@jimmylauzau.com
 <!-- Blog: [jimmylauzau.com](http://www.jimmylauzau.com/) -->
 
 
-Summary
-----------
-
-I am a full-stack software engineer with over 15 years of experience. I am currently looking for a DevOps role.
-
-From working with Docker to writing and maintaining CI/CD pipelines, creating deployment strategies, maintaining deployments, and even just writing scripts to automate repetitive tasks, DevOps has always been one of the most enjoyable parts of the roles I have been in. I am looking forward to putting more focus on the area!
-
-
 Experience
 ----------
 
-### Principal Software Engineer
+### Engineering Manager & Software Engineer
 
 #### [Kanekto](https://kanekto.com/)
 
