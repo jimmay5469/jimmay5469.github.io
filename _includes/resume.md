@@ -10,7 +10,7 @@ Experience
 
 ### Engineering Manager & Software Engineer
 
-#### [Kanekto](https://kanekto.com/)
+#### [Kanekto](https://www.linkedin.com/company/kanekto/)
 
 _September 2022 - Present_
 
