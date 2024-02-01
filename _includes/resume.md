@@ -44,7 +44,7 @@ Skills: JavaScript, Engineering Management, Team Leadership, Team Management, Ne
 
 _August 2019 - September 2022_
 
-Chegg originally made its name in the college space by providing online textbook rentals and quickly became the main online resource for college students providing services like Q&A, and homework help. During my time there I worked on two different teams, the team responsible for building and maintaining [Internships.com](https://internships.com), and the team responsible for building and maintaining [Thinkful](https://www.thinkful.com/), Chegg's online bootcamp. My activities included:
+Chegg originally made its name in the college space by providing online textbook rentals and quickly became the main online resource for college students providing services like Q&A, and homework help. During my time there I worked on two different teams, the team responsible for building and maintaining Internships.com, and the team responsible for building and maintaining Thinkful, Chegg's online bootcamp. My activities included:
 
 - Greatly improve the SEO capabilities of Internships.com and ease of maintaining our SEO-related code. As part of this project, I had to:
   - Convert our React codebase to Next.js without interrupting the development of other features as well as transitioning other features over from WordPress.
@@ -79,12 +79,12 @@ Skills: JavaScript, Engineering Management, Team Leadership, Team Management, Re
 
 _March 2014 - March 2017_
 
-Ahalogy is a social marketing startup that specializes in bringing content creators and big brands together to help each other win on [Pinterest](https://www.pinterest.com/). As a front-end JavaScript developer at Ahalogy, I was responsible for developing and maintaining an Ember.js application that allows users to effectively maintain and measure performance on their Pinterest accounts. My activities included:
+Ahalogy is a social marketing startup that specializes in bringing content creators and big brands together to help each other win on Pinterest. As a front-end JavaScript developer at Ahalogy, I was responsible for developing and maintaining an Ember.js application that allows users to effectively maintain and measure performance on their Pinterest accounts. My activities included:
 
 - Lead project planning and project upgrading for a team of 2-3 remote Ember developers.
-- Lead release management for our 2 main Ember projects and 1 Ember addon used for shared code between the projects. [Semantic versioning](http://semver.org/) is used for project versioning and the [ember-cli-deploy](http://ember-cli.com/ember-cli-deploy/) lightning strategy is used in our automated deployments.
-- Manage development and peer reviews using Git and GitHub. The [git-flow](http://nvie.com/posts/a-successful-git-branching-model/) branching model is used and work is completed in forks of the Ahalogy repository.
-- Establish a [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) process as a tool for managing iterative development on our team.
+- Lead release management for our 2 main Ember projects and 1 Ember addon used for shared code between the projects. Semantic versioning is used for project versioning and the ember-cli-deploy lightning strategy is used in our automated deployments.
+- Manage development and peer reviews using Git and GitHub. The git-flow branching model is used and work is completed in forks of the Ahalogy repository.
+- Establish a scrum process as a tool for managing iterative development on our team.
 - Establish a culture of acceptance, integration, and unit testing within our Ember applications.
 - Lead development on both application security and Pinterest authentication using OAuth.
 - Pair program remotely with team members using Screenhero and other tools.
