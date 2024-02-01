@@ -8,7 +8,7 @@ Email: jimmy@jimmylauzau.com
 Summary
 -------
 
-I am an engineering manager and software engineer who grew up programming websites for fun as a child and who now has a computer science degree and over 15 years of professional experience. I have always been a natural leader so even before taking on engineering manager roles I always gravitated towards leading the teams I have been on. I am very empathetic towards the end-users of my products and take a special interest in UX, working very closely with the designers on teams I have been part of to create the best user experience possible. I look forward to seeing what I get to help create in my next role!
+I am an engineering manager and software engineer who grew up programming websites for fun as a child and who now has a computer science degree and nearly 20 years of professional experience. I have always been a natural leader so even before taking on engineering manager roles I always gravitated towards leading the teams I have been on. I am very empathetic towards the end-users of my products and take a special interest in UX, working very closely with the designers on teams I have been part of to create the best user experience possible. I look forward to seeing what I get to help create in my next role!
 
 
 Experience
