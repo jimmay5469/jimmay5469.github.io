@@ -24,7 +24,7 @@ Experience
 
 _September 2022 - Present_
 
-Kanekto is a small startup developing a product to make employees feel more connected in large organizations. It gives employees the opportunity to connect with each other around their personal hobbies bridging the gap between teams and levels. Being a small startup, I am required to wear many hats. Some of them include:
+Kanekto is a small startup developing a product to make employees feel more connected in large organizations. It allows employees to connect around their hobbies bridging the gap between teams and levels. Being a small startup, I am required to wear many hats. Some of them include:
 
 - Manage a team of 6 developers and a QA engineer. This team includes full-time contractors so it has been my responsibility to manage the budget and decide on the makeup of the team as we have gone through many phases and iterations, as well as provide feedback and review timesheets.
 - Lead front-end web development using Next.js, React/Redux, and Typescript.
@@ -64,10 +64,10 @@ Skills: JavaScript, Next.js, React.js, Redux.js, TypeScript, User Experience (UX
 
 _March 2017 - August 2019_
 
-Launch Scout (formerly Gaslight) is a consulting company that highly respected within the Cincinnati development community. They are known for their community involvement, code quality, UX quality, and agile software development practices. They value small mighty teams so most of our projects consist of 2 developers that pair program and a UX designer. Some of the projects I worked on there were:
+Launch Scout (formerly Gaslight) is a consulting company that is highly respected within the Cincinnati development community. They are known for their community involvement, code quality, UX quality, and agile software development practices. They value small mighty teams so most of our projects consist of 2 developers that pair program and a UX designer. Some of the projects I worked on there were:
 
 - An open source blockchain explorer written for Etherium-based blockchains. It is written mostly on Elixir and Phoenix but also utilizes Redux to manage state and real-time socket data on the front-end. This project was a collaboration between a few well-known consulting companies in the industry and even included the original author of Elixir and the original author of Phoenix. I was Launch Scout's team lead on the project of 2 Launch Scout UX designers and 3 Launch Scout developers.
-- A GIS app for the lawn and landscaping industry that allows companies to take complex measurements for jobs on a map. They use this data to do project estimation and planning. This is a huge help for them because they are able to accurately take measurements without the cost of traveling to the actual location, as well as to have a much more visual tool that they can use and reflect back on. It has a Rails back-end and a React/Redux front-end and makes heavy use of the Esri JavaScript library.
+- A GIS app for the lawn and landscaping industry that allows companies to take complex measurements for jobs on a map. They use this data to do project estimation and planning. This is a huge help for them because they can accurately take measurements without the cost of traveling to the actual location, as well as have a much more visual tool that they can use and reflect on. It has a Rails back-end and a React/Redux front-end and makes heavy use of the Esri JavaScript library.
 - A data visualization app to display and organize lab results for testing done on consumer product materials. It is a single-page app utilizing Python, GraphQL, and React/Redux.
 
 Skills: JavaScript, Engineering Management, Team Leadership, Team Management, React.js, Redux.js, User Experience (UX), Continuous Integration and Continuous Delivery (CI/CD), Docker Products, DevOps, Elixir, Mentoring, GraphQL, Ruby, Ruby on Rails, Python (Programming Language), PostgreSQL, Software Development, Software Design, Agile Methodologies, Automated Software Testing, Consulting, Git, Scrum
