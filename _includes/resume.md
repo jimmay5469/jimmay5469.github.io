@@ -58,7 +58,7 @@ Chegg originally made its name in the college space by providing online textbook
 Skills: JavaScript, Next.js, React.js, Redux.js, TypeScript, User Experience (UX), Continuous Integration and Continuous Delivery (CI/CD), Docker Products, DevOps, Software Development, Software Design, Automated Software Testing, Search Engine Optimization (SEO), Git, Scrum
 
 
-### Developer
+### Project Lead & Developer
 
 #### [Launch Scout](https://launchscout.com/)
 
