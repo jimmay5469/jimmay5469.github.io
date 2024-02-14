@@ -22,7 +22,7 @@ Experience
 
 #### [Kanekto](https://www.linkedin.com/company/kanekto/)
 
-_September 2022 - Present_
+_September 2022 - January 2024_
 
 Kanekto is a small startup developing a product to make employees feel more connected in large organizations. It allows employees to connect around their hobbies bridging the gap between teams and levels. Being a small startup, I am required to wear many hats. Some of them include:
 
