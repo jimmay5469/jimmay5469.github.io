@@ -2,130 +2,156 @@ Jimmy Lauzau
 ============
 
 Email: jimmy@jimmylauzau.com  
+Phone: (\*\*\*) \*\*\*-\*\*\*\*  
+Location: Cincinnati, Ohio (Eastern Time)
 <!-- Blog: [jimmylauzau.com](http://www.jimmylauzau.com/) -->
 
 
 Summary
 -------
 
-I am an engineering manager and software engineer who grew up programming websites for fun as a child and who now has a computer science degree and nearly 20 years of professional experience.
+I am an engineering manager, a leader, and someone who gets great joy from teaching and helping other engineers.
 
-I have always been a natural leader so even before taking on engineering manager roles I always gravitated towards leading the teams I have been on. I am very empathetic towards the end-users of my products and take a special interest in UX, working very closely with the designers on teams I have been part of to create the best user experience possible.
+I am an agile enthusiast who loves actively breaking down work into its smallest pieces and continually prioritizing them, finding ways to deliver features and products to users sooner, gathering feedback, and iterating.
 
-I look forward to seeing what I get to help create in my next role!
+I advocate for iterative approaches to maintaining and upgrading legacy systems rather than rewriting.
+
+I place heavy emphasis on user experience, always working very closely with designers to design and create the best experience for users.
+
+I look forward to seeing what I get to help create and who I can help to progress in their careers in my next role!
 
 
 Experience
 ----------
 
 ### Lead Software Engineer
-
-#### [Acuity Brands](https://www.acuitybrands.com/)
-
+#### Acuity Brands (Remote)
 _April 2024 - Present_
 
+- Taught 5+ developers to use dependency injection so they could test code that makes Bluetooth calls
+- Review PRs for legacy code base and help 5-10 developers clean up the legacy code while producing new features
+- Implemented PR pipelines to minimize the manual work in reviewing PRs and ensure code was functional before merging
+- Helped the team learn agile principles
 
-### Engineering Manager & Software Engineer
-
-#### [Kanekto](https://www.linkedin.com/company/kanekto/)
-
+### Engineering Manager
+#### Kanekto (Remote)
 _September 2022 - March 2024_
 
-Kanekto is a small startup developing a product to make employees feel more connected in large organizations. It allows employees to connect around their hobbies bridging the gap between teams and levels. Being a small startup, I am required to wear many hats. Some of them include:
-
-- Manage a team of 6 developers and a QA engineer. This team includes full-time contractors so it has been my responsibility to manage the budget and decide on the makeup of the team as we have gone through many phases and iterations, as well as provide feedback and review timesheets.
-- Lead front-end web development using Next.js, React/Redux, and Typescript.
-- Establish our front-end development and release process.
-- Build, maintain, and iterate upon our front-end DevOps infrastructure and build pipelines using GitHub Actions, Docker, and Heroku.
-- Review and provide feedback on all front-end code.
-- Give feedback and actively contribute to the UX design of the application with our UX designer.
-- Very actively collaborate on the direction of the company and product features to be developed.
-- Be the main contributor to the front-end codebase in addition to all of the responsibilities above.
-
-Skills: JavaScript, Engineering Management, Team Leadership, Team Management, Next.js, React.js, Redux.js, TypeScript, User Experience (UX), Continuous Integration and Continuous Delivery (CI/CD), Docker Products, DevOps, Software Development, Software Design, Automated Software Testing, Git, Scrum
-
+- Formed, budgeted, and managed a 6-9 person international team of developers, contractors, and a QA engineer
+- Planned and prioritized work for the team using agile methodologies
+- Wrote pipelines including PR deployments
+- Leveled up the development team through PRs and providing feedback and teaching increasing productivity by 50% and code quality
+- Researched and designed a newsfeed algorithm for our backend developers and taught them how to do it so they could implement
+- Wired up analytics and click tracking and helped use the resulting data to make improvements to the application
+- Worked closely with the design team to make UX improvements on feature work
+- Created our project from the ground up
 
 ### Senior Software Engineer
-
-#### [Chegg](https://www.chegg.com/)
-
+#### Chegg (Remote)
 _August 2019 - September 2022_
 
-Chegg originally made its name in the college space by providing online textbook rentals and quickly became the main online resource for college students providing services like Q&A, and homework help. During my time there I worked on two different teams, the team responsible for building and maintaining Internships.com, and the team responsible for building and maintaining Thinkful, Chegg's online bootcamp. My activities included:
+- Led 3+ projects to incrementally convert codebases to Next.js during active development with no downtime to improve SEO, significantly decreasing cost as compared to the previous WordPress solution, decreasing the size of the codebase that we needed to maintain, and modernizing our React solution
+- Led efforts to improve the code quality on the Thinkful legacy codebase which had a lot of unnecessary complexity and obsolete code
+- Wrote and maintained Docker images
+- Improved the onboarding and apply workflows on internships.com
 
-- Greatly improve the SEO capabilities of Internships.com and ease of maintaining our SEO-related code. As part of this project, I had to:
-  - Convert our React codebase to Next.js without interrupting the development of other features as well as transitioning other features over from WordPress.
-  - Update our Docker images and CI processes to release the Next.js solution alongside the existing solutions.
-  - Work with the DevOps team to transition traffic from the old solutions to the Next.js solution.
-- Build and maintain features for Internships.com using React/Redux.
-- Lead Thinkful's transition from React to Next.js modeling off of the Internships.com work.
-- Build and maintain features for Thinkful using React/Redux.
-- Lead many efforts to improve code quality at Thinkful because the original code had been rapidly developed while they were a startup and was not up to Chegg standards.
-
-Skills: JavaScript, Next.js, React.js, Redux.js, TypeScript, User Experience (UX), Continuous Integration and Continuous Delivery (CI/CD), Docker Products, DevOps, Software Development, Software Design, Automated Software Testing, Search Engine Optimization (SEO), Git, Scrum
-
-
-### Project Lead & Developer
-
-#### [Launch Scout](https://launchscout.com/)
-
+### Project Lead, Senior Software Engineer
+#### Launch Scout (On-Site)
 _March 2017 - August 2019_
 
-Launch Scout (formerly Gaslight) is a consulting company that is highly respected within the Cincinnati development community. They are known for their community involvement, code quality, UX quality, and agile software development practices. They value small mighty teams so most of our projects consist of 2 developers that pair program and a UX designer. Some of the projects I worked on there were:
+- Led 3-5 projects as the main go-between with the client, the stakeholders, and the development and design team. Led the developers on the team, and ran the agile process for the project for management and discovery
+- Taught and advocated for JavaScript within our company of 20+ developers to produce better user experiences for our clients
+- Taught git to 5+ designers and helped troubleshoot when they would get stuck, recover lost work, etc.
+- Learned and taught 5+ other developers Docker, as a consulting company working on projects in many different coding stacks began converting projects to Docker for development so there was less downtime getting projects set up for new developers or when you had to make small changes to applications while in maintenance mode
+- Created an efficient large data visualization for R&D data using D3 and GraphQL/Apollo
+- Wrapped ESRI framework in React￼￼ which was using an outdated and rarely used module system alternative to CommonJS/etc. so it could be seamlessly imported using modern JavaScript module systems and used like a typical React component
+- Used Redux to implement undo/redo on interactive and visual ESRI map drawing tools
+- Implemented efficient DOM diffing in JavaScript, including list diffing, so we could continue to use Phoenix Elixir views in a real-time live updating web socket application before LiveView existed
+- Used Ansible to configure Digital Ocean instances
+- Wrote and maintained 10+ pipelines in CircleCI, AWS, and several other CI/CD tools
 
-- An open source blockchain explorer written for Etherium-based blockchains. It is written mostly on Elixir and Phoenix but also utilizes Redux to manage state and real-time socket data on the front-end. This project was a collaboration between a few well-known consulting companies in the industry and even included the original author of Elixir and the original author of Phoenix. I was Launch Scout's team lead on the project of 2 Launch Scout UX designers and 3 Launch Scout developers.
-- A GIS app for the lawn and landscaping industry that allows companies to take complex measurements for jobs on a map. They use this data to do project estimation and planning. This is a huge help for them because they can accurately take measurements without the cost of traveling to the actual location, as well as have a much more visual tool that they can use and reflect on. It has a Rails back-end and a React/Redux front-end and makes heavy use of the Esri JavaScript library.
-- A data visualization app to display and organize lab results for testing done on consumer product materials. It is a single-page app utilizing Python, GraphQL, and React/Redux.
-
-Skills: JavaScript, Engineering Management, Team Leadership, Team Management, React.js, Redux.js, User Experience (UX), Continuous Integration and Continuous Delivery (CI/CD), Docker Products, DevOps, Elixir, Mentoring, GraphQL, Ruby, Ruby on Rails, Python (Programming Language), PostgreSQL, Software Development, Software Design, Agile Methodologies, Automated Software Testing, Consulting, Git, Scrum
-
-
-### Software Engineer
-
-#### [Ahalogy](https://www.ahalogy.com/)
-
+### Senior Software Engineer
+#### Ahalogy (Hybrid)
 _March 2014 - March 2017_
 
-Ahalogy is a social marketing startup that specializes in bringing content creators and big brands together to help each other win on Pinterest. As a front-end JavaScript developer at Ahalogy, I was responsible for developing and maintaining an Ember.js application that allows users to effectively maintain and measure performance on their Pinterest accounts. My activities included:
+- Led 3+ Ember.js projects within the company
+- Helped lead and progress our team's processes using agile methodologies
+- Led discovery and implementation of Pinterest OAuth for the Pinterest API
+- Mentored 2 junior developers in JavaScript, Ruby on Rails, and general development practices
+- Implemented a release management system that allowed us to do instant rollbacks, preview upcoming releases, and view old releases to quickly troubleshoot regressions
+- Used Redux in an Ember app for better state management
+- Created a D3 data insights portion of the application for users to know what action items they needed to take based on their collected data
+- Incremental rewrite from Backbone.js to Ember.js with zero downtime
+- Incrementally converted an application from Broccoli to EmberCLI with zero downtime and without interruption to the other developers actively working on features in the same codebase
+- Created bookmarklet and Chrome tool for creating scheduled Pinterest pins
+- Implemented a plug-and-play abstraction system for collecting analytics data from many different analytics tools we tried
+- Implemented an interactive onboarding user flow to decrease the number of support hours we needed to provide to our users
+- Wrote pipelines in CircleCI
 
-- Lead project planning and project upgrading for a team of 2-3 remote Ember developers.
-- Lead release management for our 2 main Ember projects and 1 Ember addon used for shared code between the projects. Semantic versioning is used for project versioning and the ember-cli-deploy lightning strategy is used in our automated deployments.
-- Manage development and peer reviews using Git and GitHub. The git-flow branching model is used and work is completed in forks of the Ahalogy repository.
-- Establish a scrum process as a tool for managing iterative development on our team.
-- Establish a culture of acceptance, integration, and unit testing within our Ember applications.
-- Lead development on both application security and Pinterest authentication using OAuth.
-- Pair program remotely with team members using Screenhero and other tools.
+### Senior Software Engineer
+#### Great American Financial Resources (On-Site)
+_July 2013 - March 2014_
 
-Skills: JavaScript, Redux.js, User Experience (UX), Continuous Integration and Continuous Delivery (CI/CD), Ember.js, Software Development, Software Design, Agile Methodologies, Automated Software Testing, Git, Scrum
+- Taught 10+ developers JavaScript and helped them move from jQuery to newer JavaScript libraries like Angular, initiating Angular adoption within the company
 
+### Software Engineer
+#### Time Warner Cable (On-Site)
+_April 2010 - June 2013_
 
-### Previous Roles
+- Taught ASP.Net MVC to 5+ Web Forms developers on the team
+- Increased adoption of developer security tool by 3x by improving the user experience in the tool
+- Created an ObjectiveC iPad app for 1000s of door-to-door sales reps to use to guide and record their day
 
-- Senior Application Developer, [Great American Financial Resources](http://www.greatamericaninsurancegroup.com/Annuities/), _July 2013 - March 2014_
-- Application Developer, [Time Warner Cable](http://www.timewarnercable.com/), _April 2010 - June 2013_
-- Software Engineer, [Tata Consultancy Services](http://www.tcs.com/), _September 2009 - April 2010_
-- Software Engineer, [Rosetta](http://www.rosetta.com/), _January 2009 - September 2009_
-- Web Developer Intern, [StudioCT at The Ohio State University](https://honors-scholars.osu.edu/scholars/programs/media-marketing-and-communication), _September 2006 - December 2008_
-- Web Developer Intern, [Ohio Presbyterian Retirement Services](http://www.oprs.org/), _June 2006 - September 2006_
+### Software Engineer
+#### Tata Consultancy Services (On-Site)
+_September 2009 - April 2010_
+
+- Taught ASP.Net to 10+ developers on my team and other teams within the company
+- Began implementing interactive JavaScript applications
+
+### Software Engineer
+#### Rosetta (On-Site)
+_January 2009 - September 2009_
+
+- Learned to be productive working on a large team of 30 developers all working on the same project
+- Implemented a dynamic form tool using WPF data bindings
+
+### Software Engineer Intern
+#### StudioCT at The Ohio State University (On-Site)
+_September 2006 - December 2008_
+
+- Hired and mentored 2 other web developers
+- Implemented a system that 500+ students used to apply to participate in the Denman Undergraduate Research Forum and was also responsible for organizing the event
+- Implemented the Ohio State Honors and Scholars website
+
+### Software Engineer Intern
+#### Ohio Presbyterian Retirement Services (On-Site)
+_June 2006 - September 2006_
+
+- Learned ASP.Net
+- Implemented a custom CMS to replace the existing website
+- Implemented an interactive Adobe Flash application for the intranet
 
 
 Volunteer Experience
 --------------------
 
 ### Meetup Organizer
-
-#### [Cincinnati Ember Meetup](https://www.meetup.com/TechLife-Cincinnati/)
-
+#### Cincinnati Ember Meetup
 _July 2015 - March 2017_
 
+- Led and organized monthly meetups of 5-20 developers
+- Taught Ember.js to many members of the local development community
+- Helped other Ember.js developers in the community troubleshoot problems they were having in their applications
 
 ### Group Instructor
-
-#### [Communication and Technology Scholars Program at The Ohio State University](https://honors-scholars.osu.edu/scholars/programs/media-marketing-and-communication)
-
+#### Communication and Technology Scholars Program at The Ohio State University
 _September 2005 - December 2008_
 
-Instructed small group sessions in audio production and ASP.Net Web Forms development.
+- Hosted weekly sessions to teach basic web development skills to 10-20 students
+- Hosted weekly sessions to teach ASP.Net to 10+ students
+- Recruited 2 specially gifted students to work at StudioCT with me. One particular student was a physics major with no plans as to how he would use his degree. I was able to help him discover web development, which is what he decided to do once he graduated, and he still works in the web development field today. Another became a very influential member of the Ruby on Rails community and the Columbus, Ohio developer community.
+- Hosted weekly sessions to teach audio production skills to 30+, I grew this to be the most popular offering in the Communication and Technology Scholars Program by 2x
 
 
 Open Source
@@ -151,4 +177,26 @@ Education
 
 ### The Ohio State University
 Bachelor of Science, Computer Science & Engineering  
-_September 2004 - December 2008_
+<!-- _September 2004 - December 2008_ -->
+
+
+Skills
+------
+
+- Javascript - 15 years
+- Typescript - 4 years
+- Next.js - 5 years
+- React - 8 years
+- Redux - 8 years
+- Ember.js - 3 years
+- Docker - 6 years
+- CircleCI - 5 years
+- GitHub Actions - 2 years
+- AWS - 5 years
+- ASP.Net C# - 9 years
+- Ruby on Rails - 3 years
+- Elixir Phoenix - 1 year
+- Python Pyramid - 1 year
+- Git - 12 years
+- Postgres - 7 years
+- SQL Server - 9 years
