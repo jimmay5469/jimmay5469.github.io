@@ -2,7 +2,7 @@ jimmay5469.github.io
 ====================
 
 ##Setup
-- Run: `gem install jekyll`
+- Run: `gem install bundler jekyll`
 
 ##Running
-- Run: `jekyll serve`
+- Run: `bundle exec jekyll serve`
