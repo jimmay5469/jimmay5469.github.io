@@ -11,13 +11,7 @@ Website: [jimmylauzau.com](http://www.jimmylauzau.com/)
 Summary
 -------
 
-I am an engineering manager, a leader, and someone who gets great joy from teaching and helping other engineers.
-
-I am an agile enthusiast who loves actively breaking down work into its smallest pieces and continually prioritizing them, finding ways to deliver features and products to users sooner, gathering feedback, and iterating.
-
-I advocate for iterative approaches to maintaining and upgrading legacy systems rather than rewriting.
-
-I place heavy emphasis on user experience, always working very closely with designers to design and create the best experience for users.
+I am an engineering manager, a software engineer, an agile enthusiast, and an advocate for high-quality UX. I am a leader and someone who gets great joy from teaching and helping other engineers. I am a proponent of iterative approaches to maintaining and upgrading legacy systems rather than rewriting.
 
 I look forward to seeing what I get to help create and who I can help to progress in their careers in my next role!
 
@@ -32,7 +26,6 @@ _April 2024 - Present_
 - Taught 5+ developers to use dependency injection so they could test code that makes Bluetooth calls
 - Review PRs for legacy code base and help 5-10 developers clean up the legacy code while producing new features
 - Implemented PR pipelines to minimize the manual work in reviewing PRs and ensure code was functional before merging
-- Helped the team learn agile principles
 
 ### Engineering Manager
 #### Kanekto (Remote)
@@ -43,9 +36,6 @@ _September 2022 - March 2024_
 - Wrote pipelines including PR deployments
 - Leveled up the development team through PRs and providing feedback and teaching increasing productivity by 50% and code quality
 - Researched and designed a newsfeed algorithm for our backend developers and taught them how to do it so they could implement
-- Wired up analytics and click tracking and helped use the resulting data to make improvements to the application
-- Worked closely with the design team to make UX improvements on feature work
-- Created our project from the ground up
 
 ### Senior Software Engineer
 #### Chegg (Remote)
@@ -60,11 +50,10 @@ _August 2019 - September 2022_
 #### Launch Scout (On-Site)
 _March 2017 - August 2019_
 
-- Led 3-5 projects as the main go-between with the client, the stakeholders, and the development and design team. Led the developers on the team, and ran the agile process for the project for management and discovery
+- Managed 3-5 projects as the main go-between with the client, the stakeholders, and the development and design team. Led the developers on the team, and ran the agile process for the project for management and discovery
 - Taught and advocated for JavaScript within our company of 20+ developers to produce better user experiences for our clients
 - Taught git to 5+ designers and helped troubleshoot when they would get stuck, recover lost work, etc.
 - Learned and taught 5+ other developers Docker, as a consulting company working on projects in many different coding stacks began converting projects to Docker for development so there was less downtime getting projects set up for new developers or when you had to make small changes to applications while in maintenance mode
-- Created an efficient large data visualization for R&D data using D3 and GraphQL/Apollo
 - Wrapped ESRI framework in React￼￼ which was using an outdated and rarely used module system alternative to CommonJS/etc. so it could be seamlessly imported using modern JavaScript module systems and used like a typical React component
 - Used Redux to implement undo/redo on interactive and visual ESRI map drawing tools
 - Implemented efficient DOM diffing in JavaScript, including list diffing, so we could continue to use Phoenix Elixir views in a real-time live updating web socket application before LiveView existed
@@ -80,14 +69,9 @@ _March 2014 - March 2017_
 - Led discovery and implementation of Pinterest OAuth for the Pinterest API
 - Mentored 2 junior developers in JavaScript, Ruby on Rails, and general development practices
 - Implemented a release management system that allowed us to do instant rollbacks, preview upcoming releases, and view old releases to quickly troubleshoot regressions
-- Used Redux in an Ember app for better state management
-- Created a D3 data insights portion of the application for users to know what action items they needed to take based on their collected data
 - Incremental rewrite from Backbone.js to Ember.js with zero downtime
 - Incrementally converted an application from Broccoli to EmberCLI with zero downtime and without interruption to the other developers actively working on features in the same codebase
 - Created bookmarklet and Chrome tool for creating scheduled Pinterest pins
-- Implemented a plug-and-play abstraction system for collecting analytics data from many different analytics tools we tried
-- Implemented an interactive onboarding user flow to decrease the number of support hours we needed to provide to our users
-- Wrote pipelines in CircleCI
 
 
 Volunteer Experience
