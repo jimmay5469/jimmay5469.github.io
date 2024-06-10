@@ -54,7 +54,7 @@ _March 2017 - August 2019_
 - Taught and advocated for JavaScript within our company of 20+ developers to produce better user experiences for our clients
 - Taught git to 5+ designers and helped troubleshoot when they would get stuck, recover lost work, etc.
 - Learned and taught 5+ other developers Docker, as a consulting company working on projects in many different coding stacks began converting projects to Docker for development so there was less downtime getting projects set up for new developers or when you had to make small changes to applications while in maintenance mode
-- Wrapped ESRI framework in React￼￼ which was using an outdated and rarely used module system alternative to CommonJS/etc. so it could be seamlessly imported using modern JavaScript module systems and used like a typical React component
+- Wrapped ESRI framework in React which was using an outdated and rarely used module system alternative to CommonJS/etc. so it could be seamlessly imported using modern JavaScript module systems and used like a typical React component
 - Used Redux to implement undo/redo on interactive and visual ESRI map drawing tools
 - Implemented efficient DOM diffing in JavaScript, including list diffing, so we could continue to use Phoenix Elixir views in a real-time live updating web socket application before LiveView existed
 - Used Ansible to configure Digital Ocean instances
