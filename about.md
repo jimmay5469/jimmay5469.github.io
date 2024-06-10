@@ -13,5 +13,4 @@ When I'm not writing code I love to be outdoors. Mountain biking is one of my fa
 - [GitHub](https://github.com/jimmay5469)
 - [LinkedIn](http://www.linkedin.com/in/jimmylauzau)
 - [Twitter](https://twitter.com/jimmay5469)
-- [Delicious](https://delicious.com/jimmay5469)
 - [Strava](https://www.strava.com/athletes/jimmay5469)
