@@ -11,9 +11,7 @@ Website: [jimmylauzau.com](http://www.jimmylauzau.com/)
 Summary
 -------
 
-I am an engineering manager, a software engineer, an agile enthusiast, and an advocate for high-quality UX. I am a leader and someone who gets great joy from teaching and helping other engineers. I am a proponent of iterative approaches to maintaining and upgrading legacy systems rather than rewriting.
-
-I look forward to seeing what I get to help create and who I can help to progress in their careers in my next role!
+Engineering manager searching for a new role after startup, Kanekto, did not survive the down market. Over 5 years of experience managing engineers, leading teams, mentoring developers, and running projects. Currently making an impact as a lead software engineer training 5+ engineers and improving codebases at Acuity Brands until the ideal engineering manager opportunity arises.
 
 
 Experience
@@ -23,55 +21,48 @@ Experience
 #### Acuity Brands (Remote)
 _April 2024 - Present_
 
-- Taught 5+ developers to use dependency injection so they could test code that makes Bluetooth calls
-- Review PRs for legacy code base and help 5-10 developers clean up the legacy code while producing new features
-- Implemented PR pipelines to minimize the manual work in reviewing PRs and ensure code was functional before merging
+- Improved code quality and test coverage by teaching 5+ developers to use dependency injection and other methods to test code previously considered not testable
+- Coached 5-10 developers to do ongoing cleanup in a legacy codebase as part of new features work
 
 ### Engineering Manager
 #### Kanekto (Remote)
 _September 2022 - March 2024_
 
-- Formed, budgeted, and managed a 6-9 person international team of developers, contractors, and a QA engineer
-- Planned and prioritized work for the team using agile methodologies
-- Wrote pipelines including PR deployments
-- Leveled up the development team through PRs and providing feedback and teaching increasing productivity by 50% and code quality
-- Researched and designed a newsfeed algorithm for our backend developers and taught them how to do it so they could implement
+- Formed, budgeted, and managed a 6-9 person international team of developers, contractors, and a QA engineer, continuously receiving positive feedback from reports and stakeholders
+- Leveled up the development team through mentoring during planning phases and PR feedback, increasing code quality and productivity by 50%
+- Designed and planned the data model and algorithms required for the news feed, educating 2 backend engineers on the approach for development
+- Transformed QA and UX validation processes by authoring CI pipelines to run on PRs which would create temporary deployments, decreasing follow-up work required after PR merges by 50%
+- Led planning and prioritization of work for the team using agile methodologies, meeting 100% of deadlines
 
 ### Senior Software Engineer
 #### Chegg (Remote)
 _August 2019 - September 2022_
 
-- Led 3+ projects to incrementally convert codebases to Next.js during active development with no downtime to improve SEO, significantly decreasing cost as compared to the previous WordPress solution, decreasing the size of the codebase that we needed to maintain, and modernizing our React solution
-- Led efforts to improve the code quality on the Thinkful legacy codebase which had a lot of unnecessary complexity and obsolete code
-- Wrote and maintained Docker images
-- Improved the onboarding and apply workflows on internships.com
+- Led 3+ projects to incrementally convert codebases to Next.js to improve and simplify the SEO strategy, without interruption to active feature development
+- Refactored the application's data initialization code to eliminate duplicate and missed API calls, increasing reliability and speed of page load by 10% and simplify maintenance and creation of new pages
+- Streamlined Redux state management simplifying development and allowing better reuse of API data which was already in the store, reducing API calls by 15%
 
 ### Project Lead, Senior Software Engineer
 #### Launch Scout (On-Site)
 _March 2017 - August 2019_
 
-- Managed 3-5 projects as the main go-between with the client, the stakeholders, and the development and design team. Led the developers on the team, and ran the agile process for the project for management and discovery
-- Taught and advocated for JavaScript within our company of 20+ developers to produce better user experiences for our clients
-- Taught git to 5+ designers and helped troubleshoot when they would get stuck, recover lost work, etc.
-- Learned and taught 5+ other developers Docker, as a consulting company working on projects in many different coding stacks began converting projects to Docker for development so there was less downtime getting projects set up for new developers or when you had to make small changes to applications while in maintenance mode
-- Wrapped ESRI framework in React which was using an outdated and rarely used module system alternative to CommonJS/etc. so it could be seamlessly imported using modern JavaScript module systems and used like a typical React component
-- Used Redux to implement undo/redo on interactive and visual ESRI map drawing tools
-- Implemented efficient DOM diffing in JavaScript, including list diffing, so we could continue to use Phoenix Elixir views in a real-time live updating web socket application before LiveView existed
-- Used Ansible to configure Digital Ocean instances
-- Wrote and maintained 10+ pipelines in CircleCI, AWS, and several other CI/CD tools
+- Ran 3-5 projects, guiding storyboarding discovery sessions, leading planning and prioritization, hosting stand-up meetings, managing developers and UX designers, and coordinating with stakeholders for feature acceptance
+- Advocated for JavaScript usage and up-skilled 20+ developers within the company to produce better user experiences for clients using React and Ember.js
+- Taught 5+ UX designers to use git and troubleshoot when issues would arise
+- Refactored a map component within one project to better use Redux, which ultimately allowed for implementation of undo/redo on an interactive and visual ESRI map drawing tool within 2 days
+- Wrapped ESRI maps framework to allow for seamless importing as a standard React component rather than spending 3+ extra months to write the entire project in the native ESRI framework instead of React
+- Implemented efficient DOM diffing in JavaScript, including list diffing, to allow the use of Phoenix Elixir views in the real-time live updating web socket application, saving the project from a 6+ month React rewrite
+- Wrote and maintained CI pipelines in 10+ projects using CircleCI, AWS, and other CI/CD tools
+- Established a plan to use Docker within the company to standardize development environments across many projects which leveraged 5 or more different technology stacks
 
 ### Senior Software Engineer
 #### Ahalogy (Hybrid)
 _March 2014 - March 2017_
 
-- Led 3+ Ember.js projects within the company
-- Helped lead and progress our team's processes using agile methodologies
-- Led discovery and implementation of Pinterest OAuth for the Pinterest API
-- Mentored 2 junior developers in JavaScript, Ruby on Rails, and general development practices
-- Implemented a release management system that allowed us to do instant rollbacks, preview upcoming releases, and view old releases to quickly troubleshoot regressions
-- Incremental rewrite from Backbone.js to Ember.js with zero downtime
-- Incrementally converted an application from Broccoli to EmberCLI with zero downtime and without interruption to the other developers actively working on features in the same codebase
-- Created bookmarklet and Chrome tool for creating scheduled Pinterest pins
+- Led a 3-person frontend development team managing 3+ Ember.js projects
+- Mentored 2 junior developers in JavaScript and Ruby on Rails
+- Implemented a release management system that allowed for instant rollbacks, preview of upcoming releases, and view of old releases to troubleshoot regressions quickly, reducing bugs and time to track down bugs by 15%
+- Devised an algorithm and developed the code for an infinitely scrolled masonry grid that didn't have staggered columns, allowing for easy virtual scrolling and a reducing memory footprint by 90%
 
 
 Volunteer Experience
@@ -81,9 +72,9 @@ Volunteer Experience
 #### Cincinnati Ember Meetup
 _July 2015 - March 2017_
 
-- Led and organized monthly meetups of 5-20 developers
-- Taught Ember.js to many members of the local development community
-- Helped other Ember.js developers in the community troubleshoot problems they were having in their applications
+- Hosted and facilitated monthly meetups of 5-20 developers, giving 4+ talks and recruiting members to give talks as well
+- Taught 30+ members of the local development community to use Ember.js and Ember Data
+- Built and troubleshooted 10+ advanced Ember.js codebases with members of the local Ember.js community
 
 
 Education
