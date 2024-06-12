@@ -22,7 +22,7 @@ Experience
 _April 2024 - Present_
 
 - Improved code quality and test coverage by teaching 5+ developers to use dependency injection and other methods to test code previously considered not testable
-- Coached 5-10 developers to do ongoing cleanup in a legacy codebase as part of new features work
+- Coached 5-10 developers to do ongoing cleanup in a legacy codebase as part of new feature work
 
 ### Engineering Manager
 #### Kanekto (Remote)
@@ -30,7 +30,7 @@ _September 2022 - March 2024_
 
 - Formed, budgeted, and managed a 6-9 person international team of developers, contractors, and a QA engineer, continuously receiving positive feedback from reports and stakeholders
 - Leveled up the development team through mentoring during planning phases and PR feedback, increasing code quality and productivity by 50%
-- Designed and planned the data model and algorithms required for the news feed, educating 2 backend engineers on the approach for development
+- Designed and planned the data model and algorithms required for the application's news feed, educating 2 backend engineers on the approach for development
 - Transformed QA and UX validation processes by authoring CI pipelines to run on PRs which would create temporary deployments, decreasing follow-up work required after PR merges by 50%
 - Led planning and prioritization of work for the team using agile methodologies, meeting 100% of deadlines
 
@@ -51,7 +51,7 @@ _March 2017 - August 2019_
 - Taught 5+ UX designers to use git and troubleshoot when issues would arise
 - Refactored a map component within one project to better use Redux, which ultimately allowed for implementation of undo/redo on an interactive and visual ESRI map drawing tool within 2 days
 - Wrapped ESRI maps framework to allow for seamless importing as a standard React component rather than spending 3+ extra months to write the entire project in the native ESRI framework instead of React
-- Implemented efficient DOM diffing in JavaScript, including list diffing, to allow the use of Phoenix Elixir views in the real-time live updating web socket application, saving the project from a 6+ month React rewrite
+- Implemented efficient DOM diffing in JavaScript, including list diffing, to allow the use of Phoenix Elixir views in a real-time live updating web socket application, saving the project from a 6+ month React rewrite
 - Wrote and maintained CI pipelines in 10+ projects using CircleCI, AWS, and other CI/CD tools
 - Established a plan to use Docker within the company to standardize development environments across many projects which leveraged 5 or more different technology stacks
 
