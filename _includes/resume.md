@@ -8,12 +8,6 @@ LinkedIn: [linkedin.com/in/jimmylauzau](https://www.linkedin.com/in/jimmylauzau/
 Website: [jimmylauzau.com](http://www.jimmylauzau.com/)
 
 
-Summary
--------
-
-Engineering manager searching for a new role after startup, Kanekto, did not survive the down market. Over 5 years of experience managing engineers, leading teams, mentoring developers, and running projects. Currently making an impact as a lead software engineer training 5+ engineers and improving codebases at Acuity Brands until the ideal engineering manager opportunity arises.
-
-
 Experience
 ----------
 
@@ -24,7 +18,7 @@ _April 2024 - Present_
 - Improved code quality and test coverage by teaching 5+ developers to use dependency injection and other methods to test code previously considered not testable
 - Coached 5-10 developers to do ongoing cleanup in a legacy codebase as part of new features work
 
-### Engineering Manager
+### Lead Software Engineer
 #### Kanekto (Remote)
 _September 2022 - March 2024_
 
