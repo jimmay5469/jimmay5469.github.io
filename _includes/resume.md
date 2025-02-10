@@ -1,17 +1,11 @@
 Jimmy Lauzau
 ============
 
-Email: jimmy@jimmylauzau.com  
+Email: jimmay5469@gmail.com  
 Phone: (\*\*\*) \*\*\*-\*\*\*\*  
 Location: Cincinnati, Ohio (Eastern Time)  
 LinkedIn: [linkedin.com/in/jimmylauzau](https://www.linkedin.com/in/jimmylauzau/)  
 Website: [jimmylauzau.com](http://www.jimmylauzau.com/)
-
-
-Summary
--------
-
-Engineering manager searching for a new role after startup, Kanekto, did not survive the down market. Over 5 years of experience managing engineers, leading teams, mentoring developers, and running projects. Currently making an impact as a lead software engineer training 5+ engineers and improving codebases at Acuity Brands until the ideal engineering manager opportunity arises.
 
 
 Experience
@@ -24,7 +18,7 @@ _April 2024 - Present_
 - Improved code quality and test coverage by teaching 5+ developers to use dependency injection and other methods to test code previously considered not testable
 - Coached 5-10 developers to do ongoing cleanup in a legacy codebase as part of new feature work
 
-### Engineering Manager
+### Lead Software Engineer
 #### Kanekto (Remote)
 _September 2022 - March 2024_
 
@@ -42,7 +36,7 @@ _August 2019 - September 2022_
 - Refactored the application's data initialization code to eliminate duplicate and missed API calls, increasing reliability and speed of page load by 10% and simplify maintenance and creation of new pages
 - Streamlined Redux state management simplifying development and allowing better reuse of API data which was already in the store, reducing API calls by 15%
 
-### Project Lead, Senior Software Engineer
+### Senior Software Engineer
 #### Launch Scout (On-Site)
 _March 2017 - August 2019_
 
